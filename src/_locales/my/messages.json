@@ -1,0 +1,482 @@
+{
+  "extName": {
+    "message": "အခမဲ့ VPN Proxy - Free VPN - 1VPN"
+  },
+  "extDesc": {
+    "message": "အခမဲ့ VPN Proxy၊ အကန့်အသတ်မရှိ ဒေတာ၊ မြန်နှုန်းမြင့်၊ လုံခြုံသော ကုဒ်ဝှက်ခြင်း၊ မှတ်တမ်းမသိမ်းသော မူဝါဒနှင့် အသုံးပြုရလွယ်ကူသည်။"
+  },
+  "upgrade": {
+    "message": "အဆင့်မြှင့်ရန်"
+  },
+  "signUp": {
+    "message": "အကောင့်ဖွင့်ရန်"
+  },
+  "login": {
+    "message": "ဝင်ရောက်ရန်"
+  },
+  "continueText": {
+    "message": "သို့မဟုတ် အကောင့်မပါဘဲ ဆက်လက်လုပ်ဆောင်ရန်"
+  },
+  "username": {
+    "message": "အသုံးပြုသူအမည်"
+  },
+  "password": {
+    "message": "စကားဝှက်"
+  },
+  "twoFaToken": {
+    "message": "2FA ကုဒ်"
+  },
+  "loading": {
+    "message": "ဖွင့်နေသည်..."
+  },
+  "resetPassword": {
+    "message": "စကားဝှက် ပြန်လည်သတ်မှတ်ရန်"
+  },
+  "primaryApiBlockedPart1": {
+    "message": "ပင်မဒိုမိန်းကို ပိတ်ဆို့ထားသည်။ အရန်အဖြစ် "
+  },
+  "primaryApiBlockedPart2": {
+    "message": " ကို အသုံးပြုနေသည်။"
+  },
+  "connected": {
+    "message": "ချိတ်ဆက်ထားသည်"
+  },
+  "disconnected": {
+    "message": "ချိတ်ဆက်မှု ပြတ်တောက်နေသည်"
+  },
+  "goToOptionsPage": {
+    "message": "ရွေးချယ်စရာများ စာမျက်နှာသို့ သွားရန်"
+  },
+  "goToLocationsPage": {
+    "message": "တည်နေရာများ စာမျက်နှာသို့ သွားရန်"
+  },
+  "upgradeText1": {
+    "message": "အဆင့်မြှင့်ပါ"
+  },
+  "upgradeText2": {
+    "message": "တည်နေရာများ ပိုမိုရရှိရန်နှင့် မြန်နှုန်း ပိုမြင့်ရန်"
+  },
+  "menu": {
+    "message": "မီနူး"
+  },
+  "account": {
+    "message": "အကောင့်"
+  },
+  "options": {
+    "message": "ရွေးချယ်စရာများ"
+  },
+  "contactUs": {
+    "message": "ဆက်သွယ်ရန်"
+  },
+  "email": {
+    "message": "အီးမေးလ်"
+  },
+  "plan": {
+    "message": "အစီအစဉ်"
+  },
+  "premium": {
+    "message": "ပရီမီယံ"
+  },
+  "free": {
+    "message": "အခမဲ့"
+  },
+  "editInfo": {
+    "message": "အချက်အလက် ပြင်ဆင်ရန်"
+  },
+  "logout": {
+    "message": "ထွက်ရန်"
+  },
+  "spoofGeolocation": {
+    "message": "တည်နေရာ ပြောင်းလဲပြသရန်"
+  },
+  "disableWebRtc": {
+    "message": "WebRTC ပိတ်ရန်"
+  },
+  "spoofGeolocationSubTitle": {
+    "message": "HTML5 တည်နေရာကို VPN တည်နေရာနှင့် ကိုက်ညီစေရန်"
+  },
+  "disableWebRtcSubTitle": {
+    "message": "WebRTC မှတစ်ဆင့် IP လိပ်စာ ပေါက်ကြားခြင်းကို ကာကွယ်ရန်"
+  },
+  "locations": {
+    "message": "တည်နေရာများ"
+  },
+  "reviewModalTitle": {
+    "message": "ဤတည်နေရာကို ဖွင့်ရန် ၅ ကြယ် သုံးသပ်ချက် ပေးပါ"
+  },
+  "reviewModalButton": {
+    "message": "သုံးသပ်ချက် ပေးရန်"
+  },
+  "shareModalTitle": {
+    "message": "ဤတည်နေရာကို ဖွင့်ရန် 1VPN ကို မျှဝေပါ"
+  },
+  "shareText": {
+    "message": "1VPN ကို စမ်းသုံးကြည့်လိုက်ပါပြီ။ အခမဲ့၊ ရိုးရှင်းပြီး လုံခြုံသော VPN ဖြစ်ပြီး ဒေတာ အကန့်အသတ်မရှိ၊ မြန်နှုန်းလည်း မြင့်ပါတယ်။ https://1vpn.org?from=share တွင် ကြည့်ရှုပါ"
+  },
+  "x": {
+    "message": "X (Twitter)"
+  },
+  "facebook": {
+    "message": "Facebook"
+  },
+  "linkedin": {
+    "message": "LinkedIn"
+  },
+  "vk": {
+    "message": "VK"
+  },
+  "ok": {
+    "message": "Odnoklassniki"
+  },
+  "telegram": {
+    "message": "Telegram"
+  },
+  "upgradeLocation": {
+    "message": "ဤတည်နေရာကို အသုံးပြုရန် အဆင့်မြှင့်ပါ"
+  },
+  "installSuccess": {
+    "message": "1VPN ကို အောင်မြင်စွာ ထည့်သွင်းပြီးပါပြီ"
+  },
+  "installInstructions": {
+    "message": "လိပ်စာဘားဘေးရှိ ပဟေဠိပုံ အိုင်ကွန်ကို နှိပ်ပါ။ ထို့နောက် Extension ကို ပင်ထိုးရန် ပင်အိုင်ကွန်ကို နှိပ်ပါ။"
+  },
+  "tryOurAndroidApp": {
+    "message": "ကျွန်ုပ်တို့၏ Android အက်ပ်ကို စမ်းသုံးကြည့်ပါ"
+  },
+  "scanQrCodeOrClickButton": {
+    "message": "ကျွန်ုပ်တို့၏ Android အက်ပ်ကို ဒေါင်းလုဒ်လုပ်ရန် QR ကုဒ်ကို စကင်ဖတ်ပါ သို့မဟုတ် အောက်ပါခလုတ်ကို နှိပ်ပါ။"
+  },
+  "scanOrClickQRCode": {
+    "message": "QR ကုဒ်ကို စကင်ဖတ်ပါ သို့မဟုတ် နှိပ်ပါ"
+  },
+  "downloadApp": {
+    "message": "အက်ပ် ဒေါင်းလုဒ်လုပ်ရန်"
+  },
+  "deal": {
+    "message": "အထူးကမ်းလှမ်းချက်"
+  },
+  "january": {
+    "message": "ဇန်နဝါရီ"
+  },
+  "february": {
+    "message": "ဖေဖော်ဝါရီ"
+  },
+  "march": {
+    "message": "မတ်"
+  },
+  "april": {
+    "message": "ဧပြီ"
+  },
+  "may": {
+    "message": "မေ"
+  },
+  "june": {
+    "message": "ဇွန်"
+  },
+  "july": {
+    "message": "ဇူလိုင်"
+  },
+  "august": {
+    "message": "ဩဂုတ်"
+  },
+  "september": {
+    "message": "စက်တင်ဘာ"
+  },
+  "october": {
+    "message": "အောက်တိုဘာ"
+  },
+  "november": {
+    "message": "နိုဝင်ဘာ"
+  },
+  "december": {
+    "message": "ဒီဇင်ဘာ"
+  },
+  "upgradeModalText": {
+    "message": "နှစ်စဉ်အစီအစဉ်တွင်။ ၁၀ ရက်အတွင်း ငွေပြန်အမ်းအာမခံချက်ဖြင့် တည်နေရာများ ပိုမိုရရှိပြီး မြန်နှုန်း ပိုမြင့်စေပါ။"
+  },
+  "claimOffer": {
+    "message": "ကမ်းလှမ်းချက် ရယူရန်"
+  },
+  "until": {
+    "message": "အထိ"
+  },
+  "save33OnPremiumUntil": {
+    "message": "ပရီမီယံတွင် ၃၃% လျှော့ဈေး၊ သက်တမ်းကုန်ဆုံးချိန်"
+  },
+  "save33OnPremium": {
+    "message": "ပရီမီယံတွင် ၃၃% လျှော့ဈေး"
+  },
+  "save33Percent": {
+    "message": "၃၃% လျှော့ဈေး"
+  },
+  "installModalText": {
+    "message": "ဤတည်နေရာကို ဖွင့်ရန် အခြားအသုံးပြုသူတစ်ဦးကို ဤလင့်ခ်ဖြင့် Extension ထည့်သွင်းစေပါ:"
+  },
+  "copyLink": {
+    "message": "လင့်ခ် ကူးယူရန်"
+  },
+  "linkCopied": {
+    "message": "လင့်ခ် ကူးယူပြီးပါပြီ!"
+  },
+  "getAndroidApp": {
+    "message": "Android အက်ပ် ရယူရန်"
+  },
+  "referToUnlock": {
+    "message": "မျှဝေ၍ ဖွင့်ရန်"
+  },
+  "toUnlockThisLocation": {
+    "message": "ဤတည်နေရာကို ဖွင့်ရန် အခြားအသုံးပြုသူတစ်ဦးကို ဤလင့်ခ်ဖြင့် 1VPN ထည့်သွင်းစေပါ:"
+  },
+  "installAndroidToUnlock": {
+    "message": "ဖွင့်ရန် Android အက်ပ် ထည့်သွင်းပါ"
+  },
+  "upgradeToPremium": {
+    "message": "ပရီမီယံသို့ အဆင့်မြှင့်ရန်"
+  },
+  "moreLocationsAndFasterSpeeds": {
+    "message": "တည်နေရာများ ပိုမိုရရှိပြီး မြန်နှုန်း ပိုမြင့်သည်"
+  },
+  "tryAndroidApp": {
+    "message": "Android အက်ပ် စမ်းသုံးရန်"
+  },
+  "get1VPNForAndroid": {
+    "message": "Android အတွက် 1VPN ရယူရန်"
+  },
+  "reviewToUnlock": {
+    "message": "သုံးသပ်ချက်ပေး၍ ဖွင့်ရန်"
+  },
+  "leaveReviewToUnlock": {
+    "message": "ဤတည်နေရာကို ဖွင့်ရန် ၅ ကြယ် သုံးသပ်ချက် ပေးပါ"
+  },
+  "continueFree": {
+    "message": "အခမဲ့ ဆက်သုံးရန်"
+  },
+  "getPremium": {
+    "message": "ပရီမီယံ ရယူရန်"
+  },
+  "unlockAllServerLocations": {
+    "message": "ဆာဗာတည်နေရာ အားလုံးကို ဖွင့်ပါ"
+  },
+  "accessServersWorldwide": {
+    "message": "ကမ္ဘာတစ်ဝှမ်းရှိ ဆာဗာများကို အသုံးပြုပါ"
+  },
+  "fastestSpeeds": {
+    "message": "အမြန်ဆုံး မြန်နှုန်းများ"
+  },
+  "consistentAndFastInternetSpeeds": {
+    "message": "တည်ငြိမ်ပြီး မြန်ဆန်သော အင်တာနက် မြန်နှုန်း"
+  },
+  "tenDayMoneyBackGuarantee": {
+    "message": "၁၀ ရက် ငွေပြန်အမ်း အာမခံချက်"
+  },
+  "fullRefundIfNotSatisfied": {
+    "message": "မကျေနပ်ပါက ငွေအပြည့် ပြန်အမ်းပေးသည်"
+  },
+  "chooseYourPlan": {
+    "message": "သင့်အစီအစဉ်ကို ရွေးချယ်ပါ"
+  },
+  "unlockAllFeaturesWithPremium": {
+    "message": "ပရီမီယံဖြင့် လုပ်ဆောင်ချက်အားလုံးကို ဖွင့်ပါ"
+  },
+  "au": {
+    "message": "ဩစတြေးလျ"
+  },
+  "br": {
+    "message": "ဘရာဇီး"
+  },
+  "ca": {
+    "message": "ကနေဒါ"
+  },
+  "cl": {
+    "message": "ချီလီ"
+  },
+  "de": {
+    "message": "ဂျာမနီ"
+  },
+  "es": {
+    "message": "စပိန်"
+  },
+  "fr": {
+    "message": "ပြင်သစ်"
+  },
+  "in": {
+    "message": "အိန္ဒိယ"
+  },
+  "jp": {
+    "message": "ဂျပန်"
+  },
+  "kr": {
+    "message": "တောင်ကိုရီးယား"
+  },
+  "mx": {
+    "message": "မက္ကဆီကို"
+  },
+  "nl": {
+    "message": "နယ်သာလန်"
+  },
+  "pl": {
+    "message": "ပိုလန်"
+  },
+  "ro": {
+    "message": "ရိုမေးနီးယား"
+  },
+  "se": {
+    "message": "ဆွီဒင်"
+  },
+  "sg": {
+    "message": "စင်ကာပူ"
+  },
+  "uk": {
+    "message": "ယူနိုက်တက်ကင်းဒမ်း"
+  },
+  "us": {
+    "message": "အမေရိကန်ပြည်ထောင်စု"
+  },
+  "use": {
+    "message": "အမေရိကန်ပြည်ထောင်စု"
+  },
+  "uss": {
+    "message": "အမေရိကန်ပြည်ထောင်စု"
+  },
+  "usw": {
+    "message": "အမေရိကန်ပြည်ထောင်စု"
+  },
+  "il": {
+    "message": "အစ္စရေး"
+  },
+  "za": {
+    "message": "တောင်အာဖရိက"
+  },
+  "syd": {
+    "message": "ဆစ်ဒနီ"
+  },
+  "sao": {
+    "message": "ဆောပေါလို"
+  },
+  "yto": {
+    "message": "တိုရွန်တို"
+  },
+  "cdg": {
+    "message": "ပါရီ"
+  },
+  "fra": {
+    "message": "ဖရန့်ဖတ်"
+  },
+  "bom": {
+    "message": "မွမ်ဘိုင်း"
+  },
+  "nrt": {
+    "message": "တိုကျို"
+  },
+  "mex": {
+    "message": "မက္ကဆီကိုစီးတီး"
+  },
+  "ams": {
+    "message": "အမ်စတာဒမ်"
+  },
+  "sgp": {
+    "message": "စင်ကာပူ"
+  },
+  "mad": {
+    "message": "မက်ဒရစ်"
+  },
+  "sto": {
+    "message": "စတော့ဟုမ်း"
+  },
+  "lhr": {
+    "message": "လန်ဒန်"
+  },
+  "ewr": {
+    "message": "နယူးယောက်"
+  },
+  "lax": {
+    "message": "လော့စ်အိန်ဂျယ်လိစ်"
+  },
+  "scl": {
+    "message": "ဆန်တီယာဂို"
+  },
+  "jnb": {
+    "message": "ဂျိုဟန်နက်စဘတ်"
+  },
+  "icn": {
+    "message": "ဆိုးလ်"
+  },
+  "waw": {
+    "message": "ဝါဆော"
+  },
+  "atl": {
+    "message": "အတ္တလန်တာ"
+  },
+  "blr": {
+    "message": "ဘန်ဂလော"
+  },
+  "del": {
+    "message": "ဒေလီ"
+  },
+  "dfw": {
+    "message": "ဒါလက်စ်"
+  },
+  "hnl": {
+    "message": "ဟိုနိုလူလူ"
+  },
+  "itm": {
+    "message": "အိုဆာကာ"
+  },
+  "man": {
+    "message": "မန်ချက်စတာ"
+  },
+  "mel": {
+    "message": "မဲလ်ဘုန်း"
+  },
+  "mia": {
+    "message": "မိုင်ယာမီ"
+  },
+  "ord": {
+    "message": "ချီကာဂို"
+  },
+  "sea": {
+    "message": "ဆီယက်တယ်"
+  },
+  "sjc": {
+    "message": "ဆန်ဖရန်စစ္စကို"
+  },
+  "tlv": {
+    "message": "တဲလ်အဗစ်"
+  },
+  "loginEnterEmailAndPassword": {
+    "message": "အီးမေးလ်နှင့် စကားဝှက်ကို ထည့်သွင်းပါ"
+  },
+  "loginInvalidCredentials": {
+    "message": "အထောက်အထား မမှန်ကန်ပါ"
+  },
+  "loginTwoFaRequired": {
+    "message": "2FA ကုဒ် လိုအပ်သည်"
+  },
+  "loginCouldNotReachServers": {
+    "message": "ဆာဗာများသို့ ချိတ်ဆက်၍ မရပါ။ နောက်မှ ထပ်စမ်းကြည့်ပါ။"
+  },
+  "loginInvalidOrMissingTwoFaToken": {
+    "message": "2FA ကုဒ် မမှန်ကန်ပါ သို့မဟုတ် မထည့်ထားပါ"
+  },
+  "loginInvalidResponseFromServer": {
+    "message": "ဆာဗာမှ တုံ့ပြန်မှု မမှန်ကန်ပါ"
+  },
+  "loginCouldNotLoadAccount": {
+    "message": "သင့်အကောင့်ကို ဖွင့်၍ မရပါ။ ထပ်စမ်းကြည့်ပါ။"
+  },
+  "loginNetworkError": {
+    "message": "ကွန်ရက် အမှား"
+  },
+  "rateYourExperience": {
+    "message": "သင့်အတွေ့အကြုံကို အဆင့်သတ်မှတ်ပါ"
+  },
+  "rateUsMessage": {
+    "message": "1VPN ကို နှစ်သက်ပါက ကျွန်ုပ်တို့ကို အဆင့်သတ်မှတ်ပေးရန် အချိန်အနည်းငယ် ပေးပါ။"
+  },
+  "blockedServersModalTitle": {
+    "message": "အစိုးရ ကန့်သတ်ချက်များကြောင့် အချို့ဆာဗာများ ပိတ်ဆို့ခံရနိုင်ပါသည်။ ဤပြဿနာကို ဖြေရှင်းရန် ကြိုးစားနေပါသည်။ နားလည်ပေးသည့်အတွက် ကျေးဇူးတင်ပါသည်။"
+  },
+  "blockedServersModalButton": {
+    "message": "ဆက်လုပ်ရန်"
+  }
+}

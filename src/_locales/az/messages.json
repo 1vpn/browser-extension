@@ -1,0 +1,482 @@
+{
+  "extName": {
+    "message": "Pulsuz VPN Proksi - Free VPN - 1VPN"
+  },
+  "extDesc": {
+    "message": "Pulsuz VPN proksi, limitsiz data, yüksək sürət, təhlükəsiz şifrələmə, loq saxlamama siyasəti və asan istifadə."
+  },
+  "upgrade": {
+    "message": "Yüksəlt"
+  },
+  "signUp": {
+    "message": "Hesab yarat"
+  },
+  "login": {
+    "message": "Daxil ol"
+  },
+  "continueText": {
+    "message": "Və ya hesabsız davam et"
+  },
+  "username": {
+    "message": "İstifadəçi adı"
+  },
+  "password": {
+    "message": "Şifrə"
+  },
+  "twoFaToken": {
+    "message": "2FA kodu"
+  },
+  "loading": {
+    "message": "Yüklənir..."
+  },
+  "resetPassword": {
+    "message": "Şifrəni sıfırla"
+  },
+  "primaryApiBlockedPart1": {
+    "message": "Əsas domen bloklanıb. Ehtiyat olaraq "
+  },
+  "primaryApiBlockedPart2": {
+    "message": " istifadə olunur."
+  },
+  "connected": {
+    "message": "Qoşulub"
+  },
+  "disconnected": {
+    "message": "Ayrılıb"
+  },
+  "goToOptionsPage": {
+    "message": "Parametrlər səhifəsinə keç"
+  },
+  "goToLocationsPage": {
+    "message": "Məkanlar səhifəsinə keç"
+  },
+  "upgradeText1": {
+    "message": "Yüksəldin"
+  },
+  "upgradeText2": {
+    "message": "daha çox məkan və daha yüksək sürət üçün"
+  },
+  "menu": {
+    "message": "Menyu"
+  },
+  "account": {
+    "message": "Hesab"
+  },
+  "options": {
+    "message": "Parametrlər"
+  },
+  "contactUs": {
+    "message": "Bizimlə əlaqə"
+  },
+  "email": {
+    "message": "E-poçt"
+  },
+  "plan": {
+    "message": "Plan"
+  },
+  "premium": {
+    "message": "Premium"
+  },
+  "free": {
+    "message": "Pulsuz"
+  },
+  "editInfo": {
+    "message": "Məlumatları redaktə et"
+  },
+  "logout": {
+    "message": "Çıxış"
+  },
+  "spoofGeolocation": {
+    "message": "Geolokasiyanı dəyişdir"
+  },
+  "disableWebRtc": {
+    "message": "WebRTC-ni söndür"
+  },
+  "spoofGeolocationSubTitle": {
+    "message": "HTML5 geolokasiyasını VPN məkanına uyğunlaşdır"
+  },
+  "disableWebRtcSubTitle": {
+    "message": "WebRTC vasitəsilə IP ünvanı sızmasının qarşısını al"
+  },
+  "locations": {
+    "message": "Məkanlar"
+  },
+  "reviewModalTitle": {
+    "message": "Bu məkanı açmaq üçün 5 ulduzlu rəy yazın"
+  },
+  "reviewModalButton": {
+    "message": "Rəy yaz"
+  },
+  "shareModalTitle": {
+    "message": "Bu məkanı açmaq üçün 1VPN-i paylaşın"
+  },
+  "shareText": {
+    "message": "1VPN-i indicə sınadım: pulsuz, sadə və təhlükəsiz VPN, limitsiz data və yüksək sürətlə. Buradan baxın: https://1vpn.org?from=share"
+  },
+  "x": {
+    "message": "X (Twitter)"
+  },
+  "facebook": {
+    "message": "Facebook"
+  },
+  "linkedin": {
+    "message": "LinkedIn"
+  },
+  "vk": {
+    "message": "VK"
+  },
+  "ok": {
+    "message": "Odnoklassniki"
+  },
+  "telegram": {
+    "message": "Telegram"
+  },
+  "upgradeLocation": {
+    "message": "Bu məkana giriş üçün yüksəldin"
+  },
+  "installSuccess": {
+    "message": "1VPN uğurla quraşdırıldı"
+  },
+  "installInstructions": {
+    "message": "Ünvan sətrinin yanındakı pazl ikonuna klikləyin. Sonra genişləndirməni bərkitmək üçün sancaq ikonuna klikləyin."
+  },
+  "tryOurAndroidApp": {
+    "message": "Android tətbiqimizi sınayın"
+  },
+  "scanQrCodeOrClickButton": {
+    "message": "Android tətbiqimizi yükləmək üçün QR kodu skan edin və ya aşağıdakı düyməyə klikləyin."
+  },
+  "scanOrClickQRCode": {
+    "message": "QR kodu skan edin və ya klikləyin"
+  },
+  "downloadApp": {
+    "message": "Tətbiqi yüklə"
+  },
+  "deal": {
+    "message": "Təklif"
+  },
+  "january": {
+    "message": "Yanvar"
+  },
+  "february": {
+    "message": "Fevral"
+  },
+  "march": {
+    "message": "Mart"
+  },
+  "april": {
+    "message": "Aprel"
+  },
+  "may": {
+    "message": "May"
+  },
+  "june": {
+    "message": "İyun"
+  },
+  "july": {
+    "message": "İyul"
+  },
+  "august": {
+    "message": "Avqust"
+  },
+  "september": {
+    "message": "Sentyabr"
+  },
+  "october": {
+    "message": "Oktyabr"
+  },
+  "november": {
+    "message": "Noyabr"
+  },
+  "december": {
+    "message": "Dekabr"
+  },
+  "upgradeModalText": {
+    "message": "illik planda. 10 günlük pul geri qaytarma zəmanəti ilə daha çox məkan və daha yüksək sürət əldə edin."
+  },
+  "claimOffer": {
+    "message": "Təklifi əldə et"
+  },
+  "until": {
+    "message": "qədər"
+  },
+  "save33OnPremiumUntil": {
+    "message": "Premium-da 33% endirim, son tarix:"
+  },
+  "save33OnPremium": {
+    "message": "Premium-da 33% endirim"
+  },
+  "save33Percent": {
+    "message": "33% endirim"
+  },
+  "installModalText": {
+    "message": "Bu məkanı açmaq üçün başqa bir istifadəçinin bu keçidlə genişləndirməni quraşdırmasını təmin edin:"
+  },
+  "copyLink": {
+    "message": "Keçidi kopyala"
+  },
+  "linkCopied": {
+    "message": "Keçid kopyalandı!"
+  },
+  "getAndroidApp": {
+    "message": "Android tətbiqini əldə et"
+  },
+  "referToUnlock": {
+    "message": "Dəvət edərək aç"
+  },
+  "toUnlockThisLocation": {
+    "message": "Bu məkanı açmaq üçün başqa bir istifadəçinin bu keçidlə 1VPN-i quraşdırmasını təmin edin:"
+  },
+  "installAndroidToUnlock": {
+    "message": "Açmaq üçün Android tətbiqini quraşdırın"
+  },
+  "upgradeToPremium": {
+    "message": "Premium-a yüksəlt"
+  },
+  "moreLocationsAndFasterSpeeds": {
+    "message": "Daha çox məkan və daha yüksək sürət"
+  },
+  "tryAndroidApp": {
+    "message": "Android tətbiqini sına"
+  },
+  "get1VPNForAndroid": {
+    "message": "Android üçün 1VPN əldə et"
+  },
+  "reviewToUnlock": {
+    "message": "Rəy yazaraq aç"
+  },
+  "leaveReviewToUnlock": {
+    "message": "Bu məkanı açmaq üçün 5 ulduzlu rəy yazın"
+  },
+  "continueFree": {
+    "message": "Pulsuz davam et"
+  },
+  "getPremium": {
+    "message": "Premium əldə et"
+  },
+  "unlockAllServerLocations": {
+    "message": "Bütün server məkanlarını açın"
+  },
+  "accessServersWorldwide": {
+    "message": "Dünyanın hər yerindəki serverlərə giriş"
+  },
+  "fastestSpeeds": {
+    "message": "Ən yüksək sürət"
+  },
+  "consistentAndFastInternetSpeeds": {
+    "message": "Sabit və sürətli internet"
+  },
+  "tenDayMoneyBackGuarantee": {
+    "message": "10 günlük pul geri qaytarma zəmanəti"
+  },
+  "fullRefundIfNotSatisfied": {
+    "message": "Razı qalmasanız, tam geri ödəniş"
+  },
+  "chooseYourPlan": {
+    "message": "Planınızı seçin"
+  },
+  "unlockAllFeaturesWithPremium": {
+    "message": "Premium ilə bütün funksiyaları açın"
+  },
+  "au": {
+    "message": "Avstraliya"
+  },
+  "br": {
+    "message": "Braziliya"
+  },
+  "ca": {
+    "message": "Kanada"
+  },
+  "cl": {
+    "message": "Çili"
+  },
+  "de": {
+    "message": "Almaniya"
+  },
+  "es": {
+    "message": "İspaniya"
+  },
+  "fr": {
+    "message": "Fransa"
+  },
+  "in": {
+    "message": "Hindistan"
+  },
+  "jp": {
+    "message": "Yaponiya"
+  },
+  "kr": {
+    "message": "Cənubi Koreya"
+  },
+  "mx": {
+    "message": "Meksika"
+  },
+  "nl": {
+    "message": "Niderland"
+  },
+  "pl": {
+    "message": "Polşa"
+  },
+  "ro": {
+    "message": "Rumıniya"
+  },
+  "se": {
+    "message": "İsveç"
+  },
+  "sg": {
+    "message": "Sinqapur"
+  },
+  "uk": {
+    "message": "Birləşmiş Krallıq"
+  },
+  "us": {
+    "message": "Amerika Birləşmiş Ştatları"
+  },
+  "use": {
+    "message": "Amerika Birləşmiş Ştatları"
+  },
+  "uss": {
+    "message": "Amerika Birləşmiş Ştatları"
+  },
+  "usw": {
+    "message": "Amerika Birləşmiş Ştatları"
+  },
+  "il": {
+    "message": "İsrail"
+  },
+  "za": {
+    "message": "Cənubi Afrika"
+  },
+  "syd": {
+    "message": "Sidney"
+  },
+  "sao": {
+    "message": "San-Paulu"
+  },
+  "yto": {
+    "message": "Toronto"
+  },
+  "cdg": {
+    "message": "Paris"
+  },
+  "fra": {
+    "message": "Frankfurt"
+  },
+  "bom": {
+    "message": "Mumbay"
+  },
+  "nrt": {
+    "message": "Tokio"
+  },
+  "mex": {
+    "message": "Mexiko"
+  },
+  "ams": {
+    "message": "Amsterdam"
+  },
+  "sgp": {
+    "message": "Sinqapur"
+  },
+  "mad": {
+    "message": "Madrid"
+  },
+  "sto": {
+    "message": "Stokholm"
+  },
+  "lhr": {
+    "message": "London"
+  },
+  "ewr": {
+    "message": "Nyu-York"
+  },
+  "lax": {
+    "message": "Los-Anceles"
+  },
+  "scl": {
+    "message": "Santyaqo"
+  },
+  "jnb": {
+    "message": "Yohannesburq"
+  },
+  "icn": {
+    "message": "Seul"
+  },
+  "waw": {
+    "message": "Varşava"
+  },
+  "atl": {
+    "message": "Atlanta"
+  },
+  "blr": {
+    "message": "Banqalor"
+  },
+  "del": {
+    "message": "Dehli"
+  },
+  "dfw": {
+    "message": "Dallas"
+  },
+  "hnl": {
+    "message": "Honolulu"
+  },
+  "itm": {
+    "message": "Osaka"
+  },
+  "man": {
+    "message": "Mançester"
+  },
+  "mel": {
+    "message": "Melburn"
+  },
+  "mia": {
+    "message": "Mayami"
+  },
+  "ord": {
+    "message": "Çikaqo"
+  },
+  "sea": {
+    "message": "Sietl"
+  },
+  "sjc": {
+    "message": "San-Fransisko"
+  },
+  "tlv": {
+    "message": "Təl-Əviv"
+  },
+  "loginEnterEmailAndPassword": {
+    "message": "Zəhmət olmasa e-poçt və şifrəni daxil edin"
+  },
+  "loginInvalidCredentials": {
+    "message": "Yanlış giriş məlumatları"
+  },
+  "loginTwoFaRequired": {
+    "message": "2FA kodu tələb olunur"
+  },
+  "loginCouldNotReachServers": {
+    "message": "Serverlərə qoşulmaq mümkün olmadı. Daha sonra yenidən cəhd edin."
+  },
+  "loginInvalidOrMissingTwoFaToken": {
+    "message": "2FA kodu yanlışdır və ya daxil edilməyib"
+  },
+  "loginInvalidResponseFromServer": {
+    "message": "Serverdən yanlış cavab"
+  },
+  "loginCouldNotLoadAccount": {
+    "message": "Hesabınızı yükləmək mümkün olmadı. Yenidən cəhd edin."
+  },
+  "loginNetworkError": {
+    "message": "Şəbəkə xətası"
+  },
+  "rateYourExperience": {
+    "message": "Təcrübənizi qiymətləndirin"
+  },
+  "rateUsMessage": {
+    "message": "1VPN-dən məmnunsunuzsa, zəhmət olmasa bir dəqiqə ayırıb bizi qiymətləndirin."
+  },
+  "blockedServersModalTitle": {
+    "message": "Dövlət məhdudiyyətləri səbəbindən bəzi serverlər bloklana bilər. Bu problemin həlli üzərində işləyirik. Anlayışınız üçün təşəkkür edirik."
+  },
+  "blockedServersModalButton": {
+    "message": "Davam et"
+  }
+}
