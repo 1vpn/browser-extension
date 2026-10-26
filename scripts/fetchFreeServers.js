@@ -21,7 +21,7 @@ function fetchFreeServers() {
 const browser = process.env.BROWSER
 const FREE_LOCATIONS_OVERRIDES = (browser === 'edge' || browser === 'firefox')
   ? { sgp: { ratingLocked: true } }
-  : {}
+  : { sgp: { ratingPrompt: true } }
 
 async function updateFreeLocations() {
   const freeLocationsPath = path.join(__dirname, '../src/utils/freeLocations.js')

@@ -21,6 +21,7 @@ const logout = () => {
     'spoofGeolocation',
     'disableWebRtc',
     'rated',
+    'ratingPromptShown',
     'shownBlockedServersWarningModal',
   ]
 

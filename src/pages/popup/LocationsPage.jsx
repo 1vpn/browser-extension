@@ -5,6 +5,7 @@ import flags from 'utils/flags'
 import PageHeader from './PageHeader'
 import Location from './Location'
 import ReviewModal from './ReviewModal'
+import RatingModal from './RatingModal'
 import InstallModal from './InstallModal'
 import Arrow from 'assets/arrow.svg'
 
@@ -20,6 +21,7 @@ const LocationsPage = ({
   const { goBackPage } = useContext(PageContext)
   const [isInstallModalOpen, setIsInstallModalOpen] = useState(false)
   const [isReviewModalOpen, setIsReviewModalOpen] = useState(false)
+  const [ratingPromptLocation, setRatingPromptLocation] = useState(null)
 
   const sortedLocations = Object.values(locations).sort((a, b) => {
     if (!isPremium) {
@@ -50,6 +52,16 @@ const LocationsPage = ({
         isOpen={isReviewModalOpen}
         onClose={() => setIsReviewModalOpen(false)}
       />
+      <RatingModal
+        messages={messages}
+        isOpen={!!ratingPromptLocation}
+        onClose={() => {
+          const location = ratingPromptLocation
+          setRatingPromptLocation(null)
+          handleLocationToggle(location)
+        }}
+        onRate={() => setRatingPromptLocation(null)}
+      />
       <Flex
         sx={{
           position: 'relative',
@@ -73,6 +85,7 @@ const LocationsPage = ({
                 handleLocationToggle={handleLocationToggle}
                 installDate={installDate}
                 setIsReviewModalOpen={setIsReviewModalOpen}
+                setRatingPromptLocation={setRatingPromptLocation}
                 setIsInstallModalOpen={setIsInstallModalOpen}
                 icon={flags[location.cityCode]}
                 isPremium={location.isPremium}

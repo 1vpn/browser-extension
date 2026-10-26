@@ -18,6 +18,7 @@ const Location = ({
   installDate,
   setIsReviewModalOpen,
   setIsInstallModalOpen,
+  setRatingPromptLocation,
 }) => {
   const handleClick = async () => {
     if (link) {
@@ -59,6 +60,15 @@ const Location = ({
           }
         }
       )
+    } else if (location.ratingPrompt) {
+      chrome.storage.local.get(['rated', 'ratingPromptShown'], (result) => {
+        if (result.rated || result.ratingPromptShown) {
+          handleLocationToggle(location)
+        } else {
+          chrome.storage.local.set({ ratingPromptShown: true })
+          setRatingPromptLocation(location)
+        }
+      })
     } else {
       handleLocationToggle(location)
     }

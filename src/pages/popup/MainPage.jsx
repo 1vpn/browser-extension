@@ -1,7 +1,8 @@
-import { useContext } from 'react'
+import { useContext, useState, useEffect } from 'react'
 import { PageContext } from 'context/PageContext'
 import { Box, Flex, Button, Link, Text } from 'theme-ui'
 import flags from 'utils/flags'
+import { TWENTY_FOUR_HOURS } from 'utils/constants'
 import Logo from 'assets/logo.svg'
 import MenuIcon from 'assets/menu.svg'
 import Star from 'assets/star.svg'
@@ -24,6 +25,25 @@ const MainPage = ({
   installDate,
 }) => {
   const { setCurrentPage } = useContext(PageContext)
+  const [isRatingModalOpen, setIsRatingModalOpen] = useState(false)
+
+  useEffect(() => {
+    if (!installDate) return
+    chrome.storage.local.get(['rated', 'ratingPromptShown'], (storage) => {
+      if (
+        !storage.rated &&
+        !storage.ratingPromptShown &&
+        Date.now() - installDate > TWENTY_FOUR_HOURS
+      ) {
+        setIsRatingModalOpen(true)
+      }
+    })
+  }, [installDate])
+
+  const dismissRatingModal = () => {
+    chrome.storage.local.set({ rated: true })
+    setIsRatingModalOpen(false)
+  }
 
   return (
     <Flex
@@ -33,7 +53,12 @@ const MainPage = ({
         overflow: 'hidden',
       }}
     >
-      <RatingModal installDate={installDate} messages={messages} />
+      <RatingModal
+        isOpen={isRatingModalOpen}
+        onClose={dismissRatingModal}
+        onRate={() => setIsRatingModalOpen(false)}
+        messages={messages}
+      />
       {!isPremium && <BlockedServersWarningModal isConnected={isConnected} messages={messages} />}
       <PageHeader
         left={

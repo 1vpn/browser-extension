@@ -1,36 +1,23 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { Box, Flex } from 'theme-ui'
 import Star from 'assets/star.svg'
 import Modal from './Modal'
-import { reviewUrl, TWENTY_FOUR_HOURS } from 'utils/constants'
+import { reviewUrl } from 'utils/constants'
 
-const RatingModal = ({ installDate, messages }) => {
-  const [isOpen, setIsOpen] = useState(false)
+const RatingModal = ({ isOpen, onClose, onRate, messages }) => {
   const [hovered, setHovered] = useState(0)
 
-  useEffect(() => {
-    if (!installDate) return
-    chrome.storage.local.get(['rated'], (storage) => {
-      if (!storage.rated && Date.now() - installDate > TWENTY_FOUR_HOURS) {
-        setIsOpen(true)
+  const handleStarClick = (rating) => {
+    chrome.storage.local.set({ rated: true }).then(() => {
+      onRate()
+      if (rating === 5) {
+        window.open(reviewUrl, '_blank')
       }
     })
-  }, [installDate])
-
-  const handleDismiss = () => {
-    chrome.storage.local.set({ rated: true })
-    setIsOpen(false)
-  }
-
-  const handleStarClick = (rating) => {
-    handleDismiss()
-    if (rating === 5) {
-      window.open(reviewUrl, '_blank')
-    }
   }
 
   return (
-    <Modal isOpen={isOpen} onClose={handleDismiss} width="280px">
+    <Modal isOpen={isOpen} onClose={onClose} width="280px">
       <Box
         sx={{
           mb: '14px',
