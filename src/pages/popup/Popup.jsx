@@ -105,7 +105,11 @@ const Popup = () => {
   }
 
   const renderCurrentPage = () => {
-    switch (currentPage) {
+    // Premium accounts never see the upgrade page, even if it was chosen
+    // before their user data finished loading.
+    const page = isPremium && currentPage === 'upgrade' ? 'main' : currentPage
+
+    switch (page) {
       case 'locations':
         return (
           <LocationsPage
