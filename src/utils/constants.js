@@ -4,7 +4,7 @@ export const isEdge = process.env.BROWSER === 'edge'
 export const action = isFirefox ? chrome.browserAction : chrome.action
 
 export const mainUrl = '1vpn.org'
-export const backupUrls = ['1vpn.co', 'onevpn.com', 'cloudlogcdn.com']
+export const backupUrls = ['1vpn.co', 'cloudlogcdn.com', 'onevpn.com']
 export const proxyAuthUrl = 'cloudflaircdn.com'
 
 export const androidUrl =

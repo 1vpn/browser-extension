@@ -1,32 +1,71 @@
 import { mainUrl, backupUrls } from 'utils/constants'
 
-function setPrimaryReachable() {
-  chrome.storage.local.set({ primaryApiUnreachable: false })
+// A blocked domain (e.g. DNS-poisoned in China) typically black-holes the TCP
+// connection rather than refusing it, so without a timeout a single fetch can
+// hang for minutes and failover never happens.
+const REQUEST_TIMEOUT_MS = 10000
+
+const allHosts = [mainUrl, ...backupUrls]
+
+const fetchWithTimeout = async (url, options) => {
+  const controller = new AbortController()
+  const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS)
+  try {
+    return await fetch(url, { ...options, signal: controller.signal })
+  } finally {
+    clearTimeout(timer)
+  }
 }
 
-function setUsingBackupOnly() {
-  chrome.storage.local.set({ primaryApiUnreachable: true })
+// Only a real answer from our API counts. 401 is included so an expired token
+// still reaches the callers that log the user out. Anything else (Cloudflare
+// challenge pages, 5xx, captive portals) falls through to the next host.
+const shouldUseResponse = (response) =>
+  response.ok || response.status === 401
+
+const getActiveUrl = () =>
+  new Promise((resolve) => {
+    chrome.storage.local.get(['activeUrl'], (storage) => {
+      resolve(storage.activeUrl)
+    })
+  })
+
+const setActiveHost = (host) => {
+  chrome.storage.local.set({
+    activeUrl: host,
+    primaryApiUnreachable: host !== mainUrl,
+  })
 }
 
-function shouldUseResponse(response) {
-  return (
-    response.ok ||
-    (response.status >= 400 && response.status < 500)
-  )
+// Try the last host that worked first so users stuck on a backup don't pay the
+// main-domain timeout on every call, then the rest in configured order.
+const getHostOrder = (activeUrl) =>
+  allHosts.includes(activeUrl)
+    ? [activeUrl, ...allHosts.filter((host) => host !== activeUrl)]
+    : allHosts
+
+// While we're on a backup, cheaply check whether the main domain is reachable
+// again so links and the "blocked" banner switch back once it is.
+const probePrimary = () => {
+  fetchWithTimeout(`https://${mainUrl}/ping/`, { method: 'GET' })
+    .then((response) => {
+      if (response.ok) setActiveHost(mainUrl)
+    })
+    .catch(() => {})
 }
 
 const apiFetch = async (endpoint, options) => {
-  const mainBase = 'https://' + mainUrl
+  const activeUrl = await getActiveUrl()
 
-  for (let i = 0; i < 2; i++) {
+  for (const host of getHostOrder(activeUrl)) {
     try {
-      const response = await fetch(
-        mainBase + '/api/' + endpoint + '/',
+      const response = await fetchWithTimeout(
+        `https://${host}/api/${endpoint}/`,
         options
       )
       if (shouldUseResponse(response)) {
-        chrome.storage.local.set({ activeUrl: mainUrl.trim() })
-        setPrimaryReachable()
+        setActiveHost(host)
+        if (host !== mainUrl) probePrimary()
         return response
       }
     } catch (e) {
@@ -34,24 +73,6 @@ const apiFetch = async (endpoint, options) => {
     }
   }
 
-  for (const host of backupUrls) {
-    const base = 'https://' + host
-    try {
-      const response = await fetch(
-        base + '/api/' + endpoint + '/',
-        options
-      )
-      if (shouldUseResponse(response)) {
-        chrome.storage.local.set({ activeUrl: host.trim() })
-        setUsingBackupOnly()
-        return response
-      }
-    } catch (e) {
-      console.log(e)
-    }
-  }
-
-  setPrimaryReachable()
   throw new Error('All API hosts failed')
 }
 
