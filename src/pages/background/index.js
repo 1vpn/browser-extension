@@ -39,7 +39,7 @@ chrome.runtime.onStartup.addListener(() => {
   setBadge()
   chrome.storage.local.get(['isConnected'], (storage) => {
     if (storage.isConnected) {
-      fetch(`https://${proxyAuthUrl}/proxy_auth/`)
+      fetch(`https://${proxyAuthUrl}/ping/`)
     }
   })
 })

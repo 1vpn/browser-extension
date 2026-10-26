@@ -101,7 +101,7 @@ const connect = async () => {
             scope: 'regular',
           })
           .then(() => {
-            fetch(`https://${proxyAuthUrl}/proxy_auth/`)
+            fetch(`https://${proxyAuthUrl}/ping/`)
           })
       }
 
