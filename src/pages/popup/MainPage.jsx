@@ -19,8 +19,6 @@ const MainPage = ({
   locations,
   handleConnectionToggle,
   messages,
-  isSpecialOfferActive,
-  timeRemaining,
   primaryApiUnreachable,
   installDate,
 }) => {
@@ -264,9 +262,7 @@ const MainPage = ({
                   {messages.upgradeToPremium}
                 </Text>
                 <Text sx={{ fontSize: '13px', fontWeight: 300 }}>
-                  {isSpecialOfferActive && timeRemaining
-                    ? `${messages.save33Percent} ${messages.until} ${timeRemaining}`
-                    : messages.save33OnPremium}
+                  {messages.moreLocationsAndFasterSpeeds}
                 </Text>
               </Flex>
               <Box

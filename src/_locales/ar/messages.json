@@ -251,14 +251,17 @@
   "getPremium": {
     "message": "احصل على بريميوم"
   },
-  "unlockAllServerLocations": {
-    "message": "افتح جميع مواقع الخوادم"
+  "pricePerMonth": {
+    "message": "{price} / شهر"
+  },
+  "moreServerLocations": {
+    "message": "المزيد من مواقع الخوادم"
   },
   "accessServersWorldwide": {
     "message": "وصول إلى الخوادم حول العالم"
   },
-  "fastestSpeeds": {
-    "message": "أعلى السرعات"
+  "fasterSpeeds": {
+    "message": "سرعات أعلى"
   },
   "consistentAndFastInternetSpeeds": {
     "message": "سرعات إنترنت ثابتة وسريعة"
@@ -269,8 +272,14 @@
   "fullRefundIfNotSatisfied": {
     "message": "استرداد كامل إذا لم تكن راضيًا"
   },
-  "chooseYourPlan": {
-    "message": "اختر خطتك"
+  "cleanerIpAddresses": {
+    "message": "عناوين IP أنظف"
+  },
+  "fewerCaptchasAndBlockedSites": {
+    "message": "عدد أقل من اختبارات CAPTCHA والمواقع المحجوبة"
+  },
+  "choosePlan": {
+    "message": "اختر الخطة"
   },
   "unlockAllFeaturesWithPremium": {
     "message": "افتح جميع الميزات مع بريميوم"

@@ -245,14 +245,17 @@
   "getPremium": {
     "message": "Отримати Premium"
   },
-  "unlockAllServerLocations": {
-    "message": "Розблокувати всі серверні локації"
+  "pricePerMonth": {
+    "message": "{price} / місяць"
+  },
+  "moreServerLocations": {
+    "message": "Більше серверних локацій"
   },
   "accessServersWorldwide": {
     "message": "Доступ до серверів по всьому світу"
   },
-  "fastestSpeeds": {
-    "message": "Найвищі швидкості"
+  "fasterSpeeds": {
+    "message": "Вищі швидкості"
   },
   "consistentAndFastInternetSpeeds": {
     "message": "Стабільний та швидкий інтернет"
@@ -263,7 +266,13 @@
   "fullRefundIfNotSatisfied": {
     "message": "Повне повернення коштів"
   },
-  "chooseYourPlan": {
+  "cleanerIpAddresses": {
+    "message": "Чистіші IP-адреси"
+  },
+  "fewerCaptchasAndBlockedSites": {
+    "message": "Менше капч і заблокованих сайтів"
+  },
+  "choosePlan": {
     "message": "Обрати тариф"
   },
   "unlockAllFeaturesWithPremium": {

@@ -251,14 +251,17 @@
   "getPremium": {
     "message": "프리미엄 받기"
   },
-  "unlockAllServerLocations": {
-    "message": "모든 서버 위치 잠금 해제"
+  "pricePerMonth": {
+    "message": "{price} / 월"
+  },
+  "moreServerLocations": {
+    "message": "더 많은 서버 위치"
   },
   "accessServersWorldwide": {
     "message": "전 세계 서버에 접속"
   },
-  "fastestSpeeds": {
-    "message": "가장 빠른 속도"
+  "fasterSpeeds": {
+    "message": "더 빠른 속도"
   },
   "consistentAndFastInternetSpeeds": {
     "message": "안정적이고 빠른 인터넷 속도"
@@ -269,8 +272,14 @@
   "fullRefundIfNotSatisfied": {
     "message": "만족하지 못하면 전액 환불"
   },
-  "chooseYourPlan": {
-    "message": "요금제를 선택하세요"
+  "cleanerIpAddresses": {
+    "message": "더 깨끗한 IP 주소"
+  },
+  "fewerCaptchasAndBlockedSites": {
+    "message": "CAPTCHA와 차단되는 사이트 감소"
+  },
+  "choosePlan": {
+    "message": "요금제 선택"
   },
   "unlockAllFeaturesWithPremium": {
     "message": "프리미엄으로 모든 기능 잠금 해제"

@@ -245,14 +245,17 @@
   "getPremium": {
     "message": "รับพรีเมียม"
   },
-  "unlockAllServerLocations": {
-    "message": "ปลดล็อกตำแหน่งเซิร์ฟเวอร์ทั้งหมด"
+  "pricePerMonth": {
+    "message": "{price} / เดือน"
+  },
+  "moreServerLocations": {
+    "message": "ตำแหน่งเซิร์ฟเวอร์มากขึ้น"
   },
   "accessServersWorldwide": {
     "message": "เข้าถึงเซิร์ฟเวอร์ทั่วโลก"
   },
-  "fastestSpeeds": {
-    "message": "ความเร็วสูงสุด"
+  "fasterSpeeds": {
+    "message": "ความเร็วสูงขึ้น"
   },
   "consistentAndFastInternetSpeeds": {
     "message": "อินเทอร์เน็ตเร็วและเสถียร"
@@ -263,8 +266,14 @@
   "fullRefundIfNotSatisfied": {
     "message": "คืนเงินเต็มจำนวนหากไม่พอใจ"
   },
-  "chooseYourPlan": {
-    "message": "เลือกแพ็กเกจของคุณ"
+  "cleanerIpAddresses": {
+    "message": "ที่อยู่ IP ที่สะอาดกว่า"
+  },
+  "fewerCaptchasAndBlockedSites": {
+    "message": "เจอ CAPTCHA และเว็บไซต์ที่ถูกบล็อกน้อยลง"
+  },
+  "choosePlan": {
+    "message": "เลือกแพ็กเกจ"
   },
   "unlockAllFeaturesWithPremium": {
     "message": "ปลดล็อกทุกฟีเจอร์ด้วยพรีเมียม"

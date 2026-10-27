@@ -254,14 +254,17 @@
   "getPremium": {
     "message": "Premium əldə et"
   },
-  "unlockAllServerLocations": {
-    "message": "Bütün server məkanlarını açın"
+  "pricePerMonth": {
+    "message": "{price} / ay"
+  },
+  "moreServerLocations": {
+    "message": "Daha çox server məkanı"
   },
   "accessServersWorldwide": {
     "message": "Dünyanın hər yerindəki serverlərə giriş"
   },
-  "fastestSpeeds": {
-    "message": "Ən yüksək sürət"
+  "fasterSpeeds": {
+    "message": "Daha yüksək sürət"
   },
   "consistentAndFastInternetSpeeds": {
     "message": "Sabit və sürətli internet"
@@ -272,8 +275,14 @@
   "fullRefundIfNotSatisfied": {
     "message": "Razı qalmasanız, tam geri ödəniş"
   },
-  "chooseYourPlan": {
-    "message": "Planınızı seçin"
+  "cleanerIpAddresses": {
+    "message": "Daha təmiz IP ünvanları"
+  },
+  "fewerCaptchasAndBlockedSites": {
+    "message": "Daha az CAPTCHA və bloklanmış sayt"
+  },
+  "choosePlan": {
+    "message": "Plan seçin"
   },
   "unlockAllFeaturesWithPremium": {
     "message": "Premium ilə bütün funksiyaları açın"

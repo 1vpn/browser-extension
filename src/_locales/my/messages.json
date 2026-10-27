@@ -254,14 +254,17 @@
   "getPremium": {
     "message": "ပရီမီယံ ရယူရန်"
   },
-  "unlockAllServerLocations": {
-    "message": "ဆာဗာတည်နေရာ အားလုံးကို ဖွင့်ပါ"
+  "pricePerMonth": {
+    "message": "{price} / လ"
+  },
+  "moreServerLocations": {
+    "message": "ပိုများသော ဆာဗာတည်နေရာများ"
   },
   "accessServersWorldwide": {
     "message": "ကမ္ဘာတစ်ဝှမ်းရှိ ဆာဗာများကို အသုံးပြုပါ"
   },
-  "fastestSpeeds": {
-    "message": "အမြန်ဆုံး မြန်နှုန်းများ"
+  "fasterSpeeds": {
+    "message": "ပိုမြန်သော မြန်နှုန်းများ"
   },
   "consistentAndFastInternetSpeeds": {
     "message": "တည်ငြိမ်ပြီး မြန်ဆန်သော အင်တာနက် မြန်နှုန်း"
@@ -272,8 +275,14 @@
   "fullRefundIfNotSatisfied": {
     "message": "မကျေနပ်ပါက ငွေအပြည့် ပြန်အမ်းပေးသည်"
   },
-  "chooseYourPlan": {
-    "message": "သင့်အစီအစဉ်ကို ရွေးချယ်ပါ"
+  "cleanerIpAddresses": {
+    "message": "သန့်ရှင်းသော IP လိပ်စာများ"
+  },
+  "fewerCaptchasAndBlockedSites": {
+    "message": "CAPTCHA နှင့် ပိတ်ဆို့ခံရသော ဝဘ်ဆိုက် နည်းပါးသည်"
+  },
+  "choosePlan": {
+    "message": "အစီအစဉ် ရွေးချယ်ပါ"
   },
   "unlockAllFeaturesWithPremium": {
     "message": "ပရီမီယံဖြင့် လုပ်ဆောင်ချက်အားလုံးကို ဖွင့်ပါ"

@@ -251,14 +251,17 @@
   "getPremium": {
     "message": "获取高级版"
   },
-  "unlockAllServerLocations": {
-    "message": "解锁所有服务器节点"
+  "pricePerMonth": {
+    "message": "{price} / 月"
+  },
+  "moreServerLocations": {
+    "message": "更多服务器节点"
   },
   "accessServersWorldwide": {
     "message": "访问全球服务器"
   },
-  "fastestSpeeds": {
-    "message": "最快速度"
+  "fasterSpeeds": {
+    "message": "更快的速度"
   },
   "consistentAndFastInternetSpeeds": {
     "message": "稳定且快速的网络速度"
@@ -269,8 +272,14 @@
   "fullRefundIfNotSatisfied": {
     "message": "不满意可全额退款"
   },
-  "chooseYourPlan": {
-    "message": "选择你的套餐"
+  "cleanerIpAddresses": {
+    "message": "更干净的 IP 地址"
+  },
+  "fewerCaptchasAndBlockedSites": {
+    "message": "更少的验证码和网站屏蔽"
+  },
+  "choosePlan": {
+    "message": "选择套餐"
   },
   "unlockAllFeaturesWithPremium": {
     "message": "使用高级版解锁全部功能"

@@ -254,14 +254,17 @@
   "getPremium": {
     "message": "Get Premium"
   },
-  "unlockAllServerLocations": {
-    "message": "Unlock All Server Locations"
+  "pricePerMonth": {
+    "message": "{price} / month"
+  },
+  "moreServerLocations": {
+    "message": "More Server Locations"
   },
   "accessServersWorldwide": {
     "message": "Access servers worldwide"
   },
-  "fastestSpeeds": {
-    "message": "Fastest Speeds"
+  "fasterSpeeds": {
+    "message": "Faster Speeds"
   },
   "consistentAndFastInternetSpeeds": {
     "message": "Consistent and fast internet speeds"
@@ -272,8 +275,14 @@
   "fullRefundIfNotSatisfied": {
     "message": "Full refund if not satisfied"
   },
-  "chooseYourPlan": {
-    "message": "Choose Your Plan"
+  "cleanerIpAddresses": {
+    "message": "Cleaner IP Addresses"
+  },
+  "fewerCaptchasAndBlockedSites": {
+    "message": "Fewer CAPTCHAs and blocked sites"
+  },
+  "choosePlan": {
+    "message": "Choose Plan"
   },
   "unlockAllFeaturesWithPremium": {
     "message": "Unlock all features with premium"

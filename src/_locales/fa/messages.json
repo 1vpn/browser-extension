@@ -245,14 +245,17 @@
   "getPremium": {
     "message": "دریافت پرمیوم"
   },
-  "unlockAllServerLocations": {
-    "message": "باز کردن همه موقعیت‌های سرور"
+  "pricePerMonth": {
+    "message": "{price} / ماه"
+  },
+  "moreServerLocations": {
+    "message": "موقعیت‌های سرور بیشتر"
   },
   "accessServersWorldwide": {
     "message": "دسترسی به سرورها در سراسر جهان"
   },
-  "fastestSpeeds": {
-    "message": "بیشترین سرعت"
+  "fasterSpeeds": {
+    "message": "سرعت‌های بالاتر"
   },
   "consistentAndFastInternetSpeeds": {
     "message": "سرعت اینترنت پایدار و سریع"
@@ -263,8 +266,14 @@
   "fullRefundIfNotSatisfied": {
     "message": "در صورت نارضایتی بازگشت کامل وجه"
   },
-  "chooseYourPlan": {
-    "message": "طرح خود را انتخاب کنید"
+  "cleanerIpAddresses": {
+    "message": "آدرس‌های IP تمیزتر"
+  },
+  "fewerCaptchasAndBlockedSites": {
+    "message": "کپچا و سایت‌های مسدود کمتر"
+  },
+  "choosePlan": {
+    "message": "انتخاب طرح"
   },
   "unlockAllFeaturesWithPremium": {
     "message": "باز کردن همه قابلیت‌ها با پرمیوم"

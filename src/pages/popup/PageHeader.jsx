@@ -1,6 +1,6 @@
 import { Box, Flex, Button } from 'theme-ui'
 
-const PageHeader = ({ left, rightIcon, onRightClick }) => {
+const PageHeader = ({ left, rightIcon, onRightClick, sx }) => {
   return (
     <Flex
       sx={{
@@ -10,6 +10,7 @@ const PageHeader = ({ left, rightIcon, onRightClick }) => {
         height: '60px',
         borderBottom: '1px solid',
         borderColor: 'borderGrey',
+        ...sx,
       }}
     >
       {left && <Box>{left}</Box>}

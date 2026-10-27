@@ -251,14 +251,17 @@
   "getPremium": {
     "message": "プレミアムを入手"
   },
-  "unlockAllServerLocations": {
-    "message": "すべてのサーバーロケーションを解除"
+  "pricePerMonth": {
+    "message": "{price} / 月"
+  },
+  "moreServerLocations": {
+    "message": "より多くのサーバーロケーション"
   },
   "accessServersWorldwide": {
     "message": "世界中のサーバーにアクセス"
   },
-  "fastestSpeeds": {
-    "message": "最高速度"
+  "fasterSpeeds": {
+    "message": "より高速な通信"
   },
   "consistentAndFastInternetSpeeds": {
     "message": "安定した高速インターネット"
@@ -269,7 +272,13 @@
   "fullRefundIfNotSatisfied": {
     "message": "ご満足いただけない場合は全額返金"
   },
-  "chooseYourPlan": {
+  "cleanerIpAddresses": {
+    "message": "よりクリーンなIPアドレス"
+  },
+  "fewerCaptchasAndBlockedSites": {
+    "message": "CAPTCHAやブロックされるサイトが減ります"
+  },
+  "choosePlan": {
     "message": "プランを選択"
   },
   "unlockAllFeaturesWithPremium": {

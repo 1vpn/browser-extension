@@ -245,13 +245,16 @@
   "getPremium": {
     "message": "Ottieni Premium"
   },
-  "unlockAllServerLocations": {
-    "message": "Sblocca tutte le posizioni server"
+  "pricePerMonth": {
+    "message": "{price} / mese"
+  },
+  "moreServerLocations": {
+    "message": "Più posizioni server"
   },
   "accessServersWorldwide": {
     "message": "Accedi a server in tutto il mondo"
   },
-  "fastestSpeeds": {
+  "fasterSpeeds": {
     "message": "Velocità più elevate"
   },
   "consistentAndFastInternetSpeeds": {
@@ -263,8 +266,14 @@
   "fullRefundIfNotSatisfied": {
     "message": "Rimborso completo se non sei soddisfatto"
   },
-  "chooseYourPlan": {
-    "message": "Scegli il tuo piano"
+  "cleanerIpAddresses": {
+    "message": "Indirizzi IP più puliti"
+  },
+  "fewerCaptchasAndBlockedSites": {
+    "message": "Meno CAPTCHA e siti bloccati"
+  },
+  "choosePlan": {
+    "message": "Scegli un piano"
   },
   "unlockAllFeaturesWithPremium": {
     "message": "Sblocca tutte le funzioni con Premium"

@@ -251,14 +251,17 @@
   "getPremium": {
     "message": "Купить Премиум"
   },
-  "unlockAllServerLocations": {
-    "message": "Разблокировать все серверы"
+  "pricePerMonth": {
+    "message": "{price} / месяц"
+  },
+  "moreServerLocations": {
+    "message": "Больше локаций серверов"
   },
   "accessServersWorldwide": {
     "message": "Доступ к серверам по всему миру"
   },
-  "fastestSpeeds": {
-    "message": "Максимальная скорость"
+  "fasterSpeeds": {
+    "message": "Более высокая скорость"
   },
   "consistentAndFastInternetSpeeds": {
     "message": "Стабильная и быстрая скорость интернета"
@@ -269,7 +272,13 @@
   "fullRefundIfNotSatisfied": {
     "message": "Полный возврат если не понравится"
   },
-  "chooseYourPlan": {
+  "cleanerIpAddresses": {
+    "message": "Более чистые IP-адреса"
+  },
+  "fewerCaptchasAndBlockedSites": {
+    "message": "Меньше капч и заблокированных сайтов"
+  },
+  "choosePlan": {
     "message": "Выберите план"
   },
   "unlockAllFeaturesWithPremium": {

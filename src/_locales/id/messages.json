@@ -251,14 +251,17 @@
   "getPremium": {
     "message": "Dapatkan Premium"
   },
-  "unlockAllServerLocations": {
-    "message": "Buka semua lokasi server"
+  "pricePerMonth": {
+    "message": "{price} / bulan"
+  },
+  "moreServerLocations": {
+    "message": "Lebih banyak lokasi server"
   },
   "accessServersWorldwide": {
     "message": "Akses server di seluruh dunia"
   },
-  "fastestSpeeds": {
-    "message": "Kecepatan tertinggi"
+  "fasterSpeeds": {
+    "message": "Kecepatan lebih tinggi"
   },
   "consistentAndFastInternetSpeeds": {
     "message": "Kecepatan internet cepat dan stabil"
@@ -269,8 +272,14 @@
   "fullRefundIfNotSatisfied": {
     "message": "Pengembalian penuh jika tidak puas"
   },
-  "chooseYourPlan": {
-    "message": "Pilih paket Anda"
+  "cleanerIpAddresses": {
+    "message": "Alamat IP Lebih Bersih"
+  },
+  "fewerCaptchasAndBlockedSites": {
+    "message": "Lebih sedikit CAPTCHA dan situs yang diblokir"
+  },
+  "choosePlan": {
+    "message": "Pilih paket"
   },
   "unlockAllFeaturesWithPremium": {
     "message": "Buka semua fitur dengan Premium"

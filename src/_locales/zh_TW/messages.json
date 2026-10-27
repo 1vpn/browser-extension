@@ -251,14 +251,17 @@
   "getPremium": {
     "message": "取得進階版"
   },
-  "unlockAllServerLocations": {
-    "message": "解鎖所有伺服器位置"
+  "pricePerMonth": {
+    "message": "{price} / 月"
+  },
+  "moreServerLocations": {
+    "message": "更多伺服器位置"
   },
   "accessServersWorldwide": {
     "message": "存取全球伺服器"
   },
-  "fastestSpeeds": {
-    "message": "最高速度"
+  "fasterSpeeds": {
+    "message": "更快的速度"
   },
   "consistentAndFastInternetSpeeds": {
     "message": "穩定且快速的網路速度"
@@ -269,8 +272,14 @@
   "fullRefundIfNotSatisfied": {
     "message": "若不滿意可全額退費"
   },
-  "chooseYourPlan": {
-    "message": "選擇你的方案"
+  "cleanerIpAddresses": {
+    "message": "更乾淨的 IP 位址"
+  },
+  "fewerCaptchasAndBlockedSites": {
+    "message": "更少的驗證碼和網站封鎖"
+  },
+  "choosePlan": {
+    "message": "選擇方案"
   },
   "unlockAllFeaturesWithPremium": {
     "message": "使用進階版解鎖全部功能"

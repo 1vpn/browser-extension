@@ -20,7 +20,9 @@ export const ONE_HOUR = 60 * 60 * 1000
 export const TWELVE_HOURS = 12 * 60 * 60 * 1000
 export const TWENTY_FOUR_HOURS = 24 * 60 * 60 * 1000
 export const TWO_MINUTES = 2 * 60 * 1000
-export const FORTY_EIGHT_HOURS = 48 * 60 * 60 * 1000
+export const freeMonthlyPrice = '$0.00'
+export const premiumMonthlyPrice = '$1.99'
+
 export const FIVE_DAYS = 5 * 24 * 60 * 60 * 1000
 export const SEVENTY_TWO_HOURS = 72 * 60 * 60 * 1000
 
@@ -92,7 +94,6 @@ export const localeMessageKeys = [
   'scanQrCodeOrClickButton',
   'scanOrClickQRCode',
   'downloadApp',
-  'save33Percent',
   'deal',
   'january',
   'february',
@@ -108,9 +109,6 @@ export const localeMessageKeys = [
   'december',
   'upgradeModalText',
   'claimOffer',
-  'until',
-  'save33OnPremiumUntil',
-  'save33OnPremium',
   'installModalText',
   'copyLink',
   'linkCopied',
@@ -126,14 +124,12 @@ export const localeMessageKeys = [
   'leaveReviewToUnlock',
   'continueFree',
   'getPremium',
-  'unlockAllServerLocations',
-  'accessServersWorldwide',
-  'fastestSpeeds',
-  'consistentAndFastInternetSpeeds',
+  'moreServerLocations',
+  'fasterSpeeds',
+  'cleanerIpAddresses',
   'tenDayMoneyBackGuarantee',
-  'fullRefundIfNotSatisfied',
-  'chooseYourPlan',
-  'unlockAllFeaturesWithPremium',
+  'pricePerMonth',
+  'choosePlan',
   'rateYourExperience',
   'rateUsMessage',
   'blockedServersModalTitle',

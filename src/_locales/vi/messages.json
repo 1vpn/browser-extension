@@ -251,14 +251,17 @@
   "getPremium": {
     "message": "Nhận Premium"
   },
-  "unlockAllServerLocations": {
-    "message": "Mở khóa tất cả vị trí máy chủ"
+  "pricePerMonth": {
+    "message": "{price} / tháng"
+  },
+  "moreServerLocations": {
+    "message": "Nhiều vị trí máy chủ hơn"
   },
   "accessServersWorldwide": {
     "message": "Truy cập máy chủ trên toàn thế giới"
   },
-  "fastestSpeeds": {
-    "message": "Tốc độ nhanh nhất"
+  "fasterSpeeds": {
+    "message": "Tốc độ nhanh hơn"
   },
   "consistentAndFastInternetSpeeds": {
     "message": "Tốc độ internet ổn định và nhanh"
@@ -269,8 +272,14 @@
   "fullRefundIfNotSatisfied": {
     "message": "Hoàn tiền đầy đủ nếu không hài lòng"
   },
-  "chooseYourPlan": {
-    "message": "Chọn gói của bạn"
+  "cleanerIpAddresses": {
+    "message": "Địa chỉ IP sạch hơn"
+  },
+  "fewerCaptchasAndBlockedSites": {
+    "message": "Ít CAPTCHA và trang web bị chặn hơn"
+  },
+  "choosePlan": {
+    "message": "Chọn gói"
   },
   "unlockAllFeaturesWithPremium": {
     "message": "Mở khóa mọi tính năng với Premium"

@@ -5,8 +5,7 @@ import useChromeStorage from 'hooks/useChromeStorage'
 import { Flex, Box } from 'theme-ui'
 import freeLocations from 'utils/freeLocations'
 import { connect, disconnect } from 'utils/manageProxy'
-import { localeMessageKeys, FORTY_EIGHT_HOURS, mainUrl } from 'utils/constants'
-import { formatTimeRemaining } from 'utils/formatTime'
+import { localeMessageKeys, mainUrl } from 'utils/constants'
 import { fetchUserData } from 'utils/userData'
 import MainPage from './MainPage'
 import OptionsPage from './OptionsPage'
@@ -19,8 +18,6 @@ const Popup = () => {
   const messages = useLocalization(localeMessageKeys)
 
   const [isLoaded, setIsLoaded] = useState(false)
-  const [isSpecialOfferActive, setIsSpecialOfferActive] = useState(false)
-  const [timeRemaining, setTimeRemaining] = useState(null)
 
   const [sessionAuthToken] = useChromeStorage('sessionAuthToken', '')
   const [installDate] = useChromeStorage('installDate', 0)
@@ -46,46 +43,17 @@ const Popup = () => {
   const [activeUrl] = useChromeStorage('activeUrl', mainUrl)
 
   useEffect(() => {
-
-    let intervalId
-
     fetchUserData()
 
-    chrome.storage.local.get(
-      ['currentLocation', 'installDate'],
-      (storage) => {
-        if (!storage.currentLocation) {
-          const firstLocation = Object.values(locations)[0]
-          if (firstLocation) {
-            setCurrentCityCode(firstLocation.cityCode)
-          }
-        }
-        setIsLoaded(true)
-
-        const install = storage.installDate || 0
-        if (install) {
-          const expirationTime = install + FORTY_EIGHT_HOURS
-          const update = () => {
-            const now = Date.now()
-            if (now < expirationTime) {
-              setIsSpecialOfferActive(true)
-              setTimeRemaining(
-                formatTimeRemaining(Math.max(0, expirationTime - now))
-              )
-            } else {
-              setIsSpecialOfferActive(false)
-              setTimeRemaining(null)
-            }
-          }
-          update()
-          intervalId = setInterval(update, 1000)
+    chrome.storage.local.get(['currentLocation'], (storage) => {
+      if (!storage.currentLocation) {
+        const firstLocation = Object.values(locations)[0]
+        if (firstLocation) {
+          setCurrentCityCode(firstLocation.cityCode)
         }
       }
-    )
-
-    return () => {
-      if (intervalId) clearInterval(intervalId)
-    }
+      setIsLoaded(true)
+    })
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleConnectionToggle = () => {
@@ -137,11 +105,7 @@ const Popup = () => {
         )
       case 'upgrade':
         return (
-          <UpgradePage
-            activeUrl={activeUrl}
-            messages={messages}
-            installDate={installDate}
-          />
+          <UpgradePage activeUrl={activeUrl} messages={messages} />
         )
       case 'android':
         return <AndroidPage messages={messages} />
@@ -157,8 +121,6 @@ const Popup = () => {
             handleConnectionToggle={handleConnectionToggle}
             installDate={installDate}
             messages={messages}
-            isSpecialOfferActive={isSpecialOfferActive}
-            timeRemaining={timeRemaining}
             primaryApiUnreachable={primaryApiUnreachable}
           />
         )
