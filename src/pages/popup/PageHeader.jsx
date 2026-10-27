@@ -1,6 +1,7 @@
 import { Box, Flex, Button } from 'theme-ui'
+import { mirrorInRtl } from 'utils/direction'
 
-const PageHeader = ({ left, rightIcon, onRightClick, sx }) => {
+const PageHeader = ({ left, rightIcon, rightButtonId, onRightClick, sx }) => {
   return (
     <Flex
       sx={{
@@ -16,6 +17,7 @@ const PageHeader = ({ left, rightIcon, onRightClick, sx }) => {
       {left && <Box>{left}</Box>}
       {rightIcon && (
         <Button
+          id={rightButtonId}
           onClick={onRightClick}
           sx={{
             all: 'unset',
@@ -37,6 +39,7 @@ const PageHeader = ({ left, rightIcon, onRightClick, sx }) => {
             sx={{
               height: '24px',
               width: '24px',
+              ...mirrorInRtl,
             }}
           />
         </Button>

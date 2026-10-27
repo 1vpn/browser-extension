@@ -1,4 +1,5 @@
 import { useState, useEffect, useMemo } from 'react'
+import { applyDocumentDirection } from 'utils/direction'
 
 const useLocalization = (messageKeysProp) => {
   const [localizedText, setLocalizedText] = useState({})
@@ -6,6 +7,8 @@ const useLocalization = (messageKeysProp) => {
   const messageKeys = useMemo(() => messageKeysProp, [messageKeysProp])
 
   useEffect(() => {
+    applyDocumentDirection()
+
     const loadMessages = () => {
       const messages = messageKeys.reduce((acc, key) => {
         acc[key] = chrome.i18n.getMessage(key)

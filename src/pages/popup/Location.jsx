@@ -1,8 +1,14 @@
 import { Flex, Box } from 'theme-ui'
 import ChevronRight from 'assets/chevronRight.svg'
+import { mirrorInRtl } from 'utils/direction'
 import Check from 'assets/check.svg'
 import Star from 'assets/star.svg'
-import { isFirefox, ONE_HOUR, SEVENTY_TWO_HOURS, TWO_MINUTES } from 'utils/constants'
+import {
+  isFirefox,
+  ONE_HOUR,
+  SEVENTY_TWO_HOURS,
+  TWO_MINUTES,
+} from 'utils/constants'
 
 const Location = ({
   activeUrl,
@@ -40,8 +46,7 @@ const Location = ({
             handleLocationToggle(location)
           } else {
             const now = Date.now()
-            const installModalClickedAt =
-              result.installModalClickedTime || 0
+            const installModalClickedAt = result.installModalClickedTime || 0
             if (
               installModalClickedAt &&
               now - installModalClickedAt > TWO_MINUTES
@@ -158,6 +163,7 @@ const Location = ({
             height: '24px',
             width: '24px',
             color: 'grey',
+            ...mirrorInRtl,
           }}
         />
       )}

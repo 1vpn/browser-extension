@@ -33,7 +33,7 @@ const PlanCard = ({
             fontSize: '13px',
             color: 'grey',
             fontWeight: 300,
-            textAlign: 'right',
+            textAlign: 'end',
           }}
         >
           {price}

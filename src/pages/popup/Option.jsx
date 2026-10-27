@@ -1,5 +1,6 @@
 import { Flex, Box, Button } from 'theme-ui'
 import ChevronRight from 'assets/chevronRight.svg'
+import { mirrorInRtl } from 'utils/direction'
 
 const Option = ({
   title,
@@ -60,6 +61,7 @@ const Option = ({
             height: '24px',
             width: '24px',
             color: 'grey',
+            ...mirrorInRtl,
           }}
         />
       ) : (
@@ -85,6 +87,9 @@ const Option = ({
                 backgroundColor: 'white',
                 borderRadius: '50%',
                 transform: `translateX(${checked ? '100%' : '0%'})`,
+                '[dir="rtl"] &': {
+                  transform: `translateX(${checked ? '-100%' : '0%'})`,
+                },
                 transition: 'all 0.2s ease-in-out',
               }}
             />

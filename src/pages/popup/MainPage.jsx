@@ -7,6 +7,7 @@ import Logo from 'assets/logo.svg'
 import MenuIcon from 'assets/menu.svg'
 import Star from 'assets/star.svg'
 import ChevronRight from 'assets/chevronRight.svg'
+import { mirrorInRtl } from 'utils/direction'
 import PageHeader from './PageHeader'
 import RatingModal from './RatingModal'
 import BlockedServersWarningModal from './BlockedServersWarningModal'
@@ -80,6 +81,7 @@ const MainPage = ({
           </Link>
         }
         rightIcon={MenuIcon}
+        rightButtonId="optionsPageButton"
         onRightClick={() => setCurrentPage('options')}
       />
       <Flex
@@ -120,6 +122,9 @@ const MainPage = ({
                 backgroundColor: '#fff',
                 borderRadius: '100%',
                 transform: `translateX(${isConnected ? '85px' : '0px'})`,
+                '[dir="rtl"] &': {
+                  transform: `translateX(${isConnected ? '-85px' : '0px'})`,
+                },
                 transition: 'all 0.2s ease-in-out',
               }}
             />
@@ -180,7 +185,7 @@ const MainPage = ({
                   flexDirection: 'column',
                   alignItems: 'flex-start',
                   flex: 1,
-                  ml: '18px',
+                  marginInlineStart: '18px',
                 }}
               >
                 <Text sx={{ fontSize: '14px', fontWeight: 400 }}>
@@ -198,6 +203,7 @@ const MainPage = ({
               color: 'grey',
               height: '24px',
               width: '24px',
+              ...mirrorInRtl,
             }}
           />
         </Button>
@@ -255,7 +261,7 @@ const MainPage = ({
                   flexDirection: 'column',
                   alignItems: 'flex-start',
                   flex: 1,
-                  ml: '18px',
+                  marginInlineStart: '18px',
                 }}
               >
                 <Text sx={{ fontSize: '14px', fontWeight: 400 }}>
@@ -269,6 +275,7 @@ const MainPage = ({
                 as={ChevronRight}
                 sx={{
                   color: 'white',
+                  ...mirrorInRtl,
                 }}
               />
             </Button>

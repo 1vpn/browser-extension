@@ -9,8 +9,6 @@ const isRestrictedLanguage = () => {
   return RESTRICTED_LANG_PREFIXES.some((prefix) => lang.startsWith(prefix))
 }
 
-const isPersian = () => chrome.i18n.getUILanguage().startsWith('fa')
-
 const BlockedServersWarningModal = ({ isConnected, messages }) => {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -38,7 +36,6 @@ const BlockedServersWarningModal = ({ isConnected, messages }) => {
           fontWeight: 400,
           color: 'black',
           lineHeight: 1.5,
-          direction: isPersian() ? 'rtl' : 'ltr',
         }}
       >
         {messages.blockedServersModalTitle}
