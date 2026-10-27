@@ -254,6 +254,12 @@
   "pricePerMonth": {
     "message": "{price} / ay"
   },
+  "creditCard": {
+    "message": "Kredi Kartı"
+  },
+  "cryptocurrency": {
+    "message": "Kripto para birimi"
+  },
   "moreServerLocations": {
     "message": "Daha fazla sunucu konumu"
   },

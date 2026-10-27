@@ -4,6 +4,7 @@ import { PageContext } from 'context/PageContext'
 import { freeMonthlyPrice, premiumMonthlyPrice } from 'utils/constants'
 import PageHeader from './PageHeader'
 import PlanCard from './PlanCard'
+import PaymentMethods from './PaymentMethods'
 
 const withPrice = (message = '', price) =>
   message.replace('{price}', () => price)
@@ -11,15 +12,12 @@ const withPrice = (message = '', price) =>
 const UpgradePage = ({ activeUrl, messages }) => {
   const { setCurrentPage } = useContext(PageContext)
 
-  const markUpgradePageSeen = () => {
-    chrome.storage.local.set({
-      upgradeButtonClicked: true,
-      upgradePageType: null,
-    })
+  const markOptionPicked = () => {
+    chrome.storage.local.set({ upgradeOptionPickedAt: Date.now() })
   }
 
   const handleContinueFree = () => {
-    markUpgradePageSeen()
+    markOptionPicked()
     setCurrentPage('main')
   }
 
@@ -38,8 +36,12 @@ const UpgradePage = ({ activeUrl, messages }) => {
       }}
     >
       <PageHeader
-        left={<Text sx={{ fontSize: '20px' }}>{messages.choosePlan}</Text>}
-        sx={{ justifyContent: 'center' }}
+        left={
+          <Text sx={{ fontSize: '24px', lineHeight: '28px', pt: '3px' }}>
+            {messages.choosePlan}
+          </Text>
+        }
+        sx={{ justifyContent: 'center', height: '68px' }}
       />
       <Flex
         sx={{
@@ -53,6 +55,7 @@ const UpgradePage = ({ activeUrl, messages }) => {
           title={messages.premium}
           price={withPrice(messages.pricePerMonth, premiumMonthlyPrice)}
           features={premiumFeatures}
+          footer={<PaymentMethods messages={messages} />}
           button={
             <Link
               id="upgradeButton"
@@ -64,7 +67,7 @@ const UpgradePage = ({ activeUrl, messages }) => {
               }
               target="_blank"
               variant="styles.baseButton"
-              onClick={markUpgradePageSeen}
+              onClick={markOptionPicked}
             >
               {messages.getPremium}
             </Link>

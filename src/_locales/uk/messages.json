@@ -248,6 +248,12 @@
   "pricePerMonth": {
     "message": "{price} / місяць"
   },
+  "creditCard": {
+    "message": "Кредитна картка"
+  },
+  "cryptocurrency": {
+    "message": "Криптовалюта"
+  },
   "moreServerLocations": {
     "message": "Більше серверних локацій"
   },

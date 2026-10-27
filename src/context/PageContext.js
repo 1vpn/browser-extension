@@ -1,5 +1,5 @@
 import React, { createContext, useState, useEffect } from 'react'
-import { TWELVE_HOURS } from 'utils/constants'
+import { ONE_HOUR } from 'utils/constants'
 
 export const PageContext = createContext()
 
@@ -8,38 +8,17 @@ export const PageProvider = ({ children }) => {
 
   useEffect(() => {
     chrome.storage.local.get(
-      [
-        'noAccount',
-        'sessionAuthToken',
-        'isPremium',
-        'upgradeModalLastShown',
-        'upgradeButtonClicked',
-      ],
+      ['isPremium', 'upgradeOptionPickedAt'],
       (storage) => {
         let initialPage = 'main'
 
         if (!storage.isPremium) {
-          const upgradeModalLastShown = storage.upgradeModalLastShown || 0
-          const upgradeButtonClicked = storage.upgradeButtonClicked || false
+          // Show the upgrade page on every open until the user picks an
+          // option, then leave it hidden for an hour before showing it again.
+          const upgradeOptionPickedAt = storage.upgradeOptionPickedAt || 0
 
-          // Reset button clicked status after 12 hours
-          if (
-            upgradeModalLastShown > 0 &&
-            Date.now() - upgradeModalLastShown >= TWELVE_HOURS
-          ) {
-            chrome.storage.local.set({ upgradeButtonClicked: false })
-          }
-
-          // Show upgrade page every 12 hours
-          if (!upgradeButtonClicked) {
-            const shouldShowModal =
-              upgradeModalLastShown === 0 ||
-              Date.now() - upgradeModalLastShown >= TWELVE_HOURS
-
-            if (shouldShowModal) {
-              initialPage = 'upgrade'
-              chrome.storage.local.set({ upgradeModalLastShown: Date.now() })
-            }
+          if (Date.now() - upgradeOptionPickedAt >= ONE_HOUR) {
+            initialPage = 'upgrade'
           }
         }
 
@@ -68,4 +47,3 @@ export const PageProvider = ({ children }) => {
     </PageContext.Provider>
   )
 }
-

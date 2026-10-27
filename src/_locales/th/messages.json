@@ -248,6 +248,12 @@
   "pricePerMonth": {
     "message": "{price} / เดือน"
   },
+  "creditCard": {
+    "message": "บัตรเครดิต"
+  },
+  "cryptocurrency": {
+    "message": "สกุลเงินดิจิทัล"
+  },
   "moreServerLocations": {
     "message": "ตำแหน่งเซิร์ฟเวอร์มากขึ้น"
   },

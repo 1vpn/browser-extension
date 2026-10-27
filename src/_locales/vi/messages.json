@@ -254,6 +254,12 @@
   "pricePerMonth": {
     "message": "{price} / tháng"
   },
+  "creditCard": {
+    "message": "Thẻ tín dụng"
+  },
+  "cryptocurrency": {
+    "message": "Tiền điện tử"
+  },
   "moreServerLocations": {
     "message": "Nhiều vị trí máy chủ hơn"
   },

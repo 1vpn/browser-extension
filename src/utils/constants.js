@@ -129,6 +129,8 @@ export const localeMessageKeys = [
   'cleanerIpAddresses',
   'tenDayMoneyBackGuarantee',
   'pricePerMonth',
+  'creditCard',
+  'cryptocurrency',
   'choosePlan',
   'rateYourExperience',
   'rateUsMessage',

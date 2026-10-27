@@ -254,6 +254,12 @@
   "pricePerMonth": {
     "message": "{price} / 月"
   },
+  "creditCard": {
+    "message": "信用卡"
+  },
+  "cryptocurrency": {
+    "message": "加密貨幣"
+  },
   "moreServerLocations": {
     "message": "更多伺服器位置"
   },

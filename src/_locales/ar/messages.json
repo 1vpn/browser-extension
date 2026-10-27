@@ -254,6 +254,12 @@
   "pricePerMonth": {
     "message": "{price} / شهر"
   },
+  "creditCard": {
+    "message": "بطاقة الائتمان"
+  },
+  "cryptocurrency": {
+    "message": "العملة المشفرة"
+  },
   "moreServerLocations": {
     "message": "المزيد من مواقع الخوادم"
   },

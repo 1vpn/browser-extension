@@ -254,6 +254,12 @@
   "pricePerMonth": {
     "message": "{price} / 월"
   },
+  "creditCard": {
+    "message": "신용카드"
+  },
+  "cryptocurrency": {
+    "message": "암호화폐"
+  },
   "moreServerLocations": {
     "message": "더 많은 서버 위치"
   },

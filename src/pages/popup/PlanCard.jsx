@@ -6,6 +6,7 @@ const PlanCard = ({
   price,
   features = [],
   button,
+  footer,
   highlighted = false,
 }) => {
   return (
@@ -13,7 +14,7 @@ const PlanCard = ({
       sx={{
         flexDirection: 'column',
         p: '24px',
-        borderRadius: '8px',
+        borderRadius: '12px',
         border: '1px solid',
         borderColor: highlighted ? 'blue30' : 'borderGrey',
         backgroundColor: highlighted ? 'blue10' : 'white',
@@ -62,7 +63,8 @@ const PlanCard = ({
           ))}
         </Flex>
       )}
-      <Box sx={{ mt: '24px' }}>{button}</Box>
+      <Box sx={{ mt: features.length > 0 ? '24px' : '20px' }}>{button}</Box>
+      {footer && <Box sx={{ mt: '20px' }}>{footer}</Box>}
     </Flex>
   )
 }

@@ -257,6 +257,12 @@
   "pricePerMonth": {
     "message": "{price} / လ"
   },
+  "creditCard": {
+    "message": "အကြွေးဝယ်ကတ်"
+  },
+  "cryptocurrency": {
+    "message": "ခရစ်ပတိုငွေကြေး"
+  },
   "moreServerLocations": {
     "message": "ပိုများသော ဆာဗာတည်နေရာများ"
   },

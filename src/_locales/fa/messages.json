@@ -248,6 +248,12 @@
   "pricePerMonth": {
     "message": "{price} / ماه"
   },
+  "creditCard": {
+    "message": "کارت اعتباری"
+  },
+  "cryptocurrency": {
+    "message": "ارز دیجیتال"
+  },
   "moreServerLocations": {
     "message": "موقعیت‌های سرور بیشتر"
   },

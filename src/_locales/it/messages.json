@@ -248,6 +248,12 @@
   "pricePerMonth": {
     "message": "{price} / mese"
   },
+  "creditCard": {
+    "message": "Carta di credito"
+  },
+  "cryptocurrency": {
+    "message": "Criptovaluta"
+  },
   "moreServerLocations": {
     "message": "Più posizioni server"
   },

@@ -14,7 +14,7 @@ const logout = () => {
     'installDate',
     'locationUnlocked',
     'upgradeModalClicked',
-    'upgradeModalLastShown',
+    'upgradeOptionPickedAt',
     'installModalClickedTime',
     'userModalType',
     'activeUrl',

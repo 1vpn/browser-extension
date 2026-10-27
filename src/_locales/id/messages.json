@@ -254,6 +254,12 @@
   "pricePerMonth": {
     "message": "{price} / bulan"
   },
+  "creditCard": {
+    "message": "Kartu Kredit"
+  },
+  "cryptocurrency": {
+    "message": "Mata uang kripto"
+  },
   "moreServerLocations": {
     "message": "Lebih banyak lokasi server"
   },
