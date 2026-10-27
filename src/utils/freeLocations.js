@@ -6,15 +6,11 @@ const freeLocations = {
     "countryCode": "nl",
     "hosts": [
       {
-        "hostname": "free-amsterdam-https-5.cloudflingcdn.com",
-        "port": 443
-      },
-      {
         "hostname": "free-amsterdam-https-1.cloudburstcdn.com",
         "port": 443
       },
       {
-        "hostname": "free-amsterdam-https-6.cloudflingcdn.com",
+        "hostname": "free-amsterdam-https-2.cloudflingcdn.com",
         "port": 443
       },
       {
@@ -26,7 +22,11 @@ const freeLocations = {
         "port": 443
       },
       {
-        "hostname": "free-amsterdam-https-2.cloudflingcdn.com",
+        "hostname": "free-amsterdam-https-5.cloudflingcdn.com",
+        "port": 443
+      },
+      {
+        "hostname": "free-amsterdam-https-6.cloudflingcdn.com",
         "port": 443
       }
     ],
@@ -40,7 +40,7 @@ const freeLocations = {
     "countryCode": "sg",
     "hosts": [
       {
-        "hostname": "free-singapore-https-3.weathercloudapp.com",
+        "hostname": "free-singapore-https-1.cloudburstcdn.com",
         "port": 443
       },
       {
@@ -48,7 +48,7 @@ const freeLocations = {
         "port": 443
       },
       {
-        "hostname": "free-singapore-https-1.cloudburstcdn.com",
+        "hostname": "free-singapore-https-3.weathercloudapp.com",
         "port": 443
       },
       {
@@ -57,24 +57,25 @@ const freeLocations = {
       }
     ],
     "latitude": 1.314,
-    "longitude": 103.6831
+    "longitude": 103.6831,
+    "ratingPrompt": true
   },
   "lax": {
     "city": "Los Angeles",
     "cityCode": "lax",
-    "country": "USA West",
+    "country": "United States",
     "countryCode": "usw",
     "hosts": [
-      {
-        "hostname": "free-los-angeles-https-3.cloudflaracdn.com",
-        "port": 443
-      },
       {
         "hostname": "free-los-angeles-https-1.cloudburstcdn.com",
         "port": 443
       },
       {
         "hostname": "free-los-angeles-https-2.cloudtimecdn.com",
+        "port": 443
+      },
+      {
+        "hostname": "free-los-angeles-https-3.cloudflaracdn.com",
         "port": 443
       },
       {
@@ -87,10 +88,6 @@ const freeLocations = {
       },
       {
         "hostname": "free-los-angeles-https-6.cloudflingcdn.com",
-        "port": 443
-      },
-      {
-        "hostname": "usa-west-free-https-1.weathercloudapp.com",
         "port": 443
       }
     ],
@@ -230,16 +227,16 @@ const freeLocations = {
     "countryCode": "se",
     "isPremium": true
   },
-  "lhr": {
-    "city": "London",
-    "cityCode": "lhr",
+  "man": {
+    "city": "Manchester",
+    "cityCode": "man",
     "country": "United Kingdom",
     "countryCode": "uk",
     "isPremium": true
   },
-  "man": {
-    "city": "Manchester",
-    "cityCode": "man",
+  "lhr": {
+    "city": "London",
+    "cityCode": "lhr",
     "country": "United Kingdom",
     "countryCode": "uk",
     "isPremium": true
@@ -251,9 +248,9 @@ const freeLocations = {
     "countryCode": "us",
     "isPremium": true
   },
-  "sjc": {
-    "city": "San Francisco",
-    "cityCode": "sjc",
+  "dfw": {
+    "city": "Dallas",
+    "cityCode": "dfw",
     "country": "United States",
     "countryCode": "us",
     "isPremium": true
@@ -265,11 +262,25 @@ const freeLocations = {
     "countryCode": "us",
     "isPremium": true
   },
-  "dfw": {
-    "city": "Dallas",
-    "cityCode": "dfw",
+  "sjc": {
+    "city": "San Francisco",
+    "cityCode": "sjc",
     "country": "United States",
     "countryCode": "us",
+    "isPremium": true
+  },
+  "atl": {
+    "city": "Atlanta",
+    "cityCode": "atl",
+    "country": "United States",
+    "countryCode": "uss",
+    "isPremium": true
+  },
+  "ewr": {
+    "city": "New York",
+    "cityCode": "ewr",
+    "country": "United States",
+    "countryCode": "use",
     "isPremium": true
   },
   "mia": {
@@ -284,20 +295,6 @@ const freeLocations = {
     "cityCode": "hnl",
     "country": "United States",
     "countryCode": "us",
-    "isPremium": true
-  },
-  "ewr": {
-    "city": "New York",
-    "cityCode": "ewr",
-    "country": "USA East",
-    "countryCode": "use",
-    "isPremium": true
-  },
-  "atl": {
-    "city": "Atlanta",
-    "cityCode": "atl",
-    "country": "USA South",
-    "countryCode": "uss",
     "isPremium": true
   }
 }
