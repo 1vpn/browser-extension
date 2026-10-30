@@ -40,6 +40,8 @@ const Popup = () => {
     'primaryApiUnreachable',
     false
   )
+  const [proxyControlledByOtherExtension, setProxyControlledByOtherExtension] =
+    useChromeStorage('proxyControlledByOtherExtension', false)
   const [activeUrl] = useChromeStorage('activeUrl', mainUrl)
 
   useEffect(() => {
@@ -57,8 +59,8 @@ const Popup = () => {
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleConnectionToggle = () => {
-    setIsConnected(!isConnected)
     if (isConnected) {
+      setIsConnected(false)
       disconnect()
     } else {
       connect()
@@ -68,7 +70,6 @@ const Popup = () => {
   const handleLocationToggle = (location) => {
     setCurrentPage('main')
     setCurrentCityCode(location.cityCode)
-    setIsConnected(true)
     connect()
   }
 
@@ -122,6 +123,8 @@ const Popup = () => {
             installDate={installDate}
             messages={messages}
             primaryApiUnreachable={primaryApiUnreachable}
+            proxyControlledByOtherExtension={proxyControlledByOtherExtension}
+            setProxyControlledByOtherExtension={setProxyControlledByOtherExtension}
           />
         )
     }

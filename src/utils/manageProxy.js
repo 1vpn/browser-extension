@@ -59,56 +59,69 @@ const getPacScript = (hosts) => {
   `
 }
 
-const connect = async () => {
-  chrome.storage.local.get(
-    ['currentLocation', 'locations', 'isPremium'],
-    (storage) => {
-      if (!storage.currentLocation) return
+// Chrome gives proxy control to the most recently installed extension that
+// asks for it. While connected, record whether another extension outranks us
+// so the popup can show ProxyConflictModal instead of a false "Connected".
+const syncProxyControl = () => {
+  if (isFirefox) return Promise.resolve()
+  return Promise.all([
+    chrome.proxy.settings.get({}),
+    chrome.storage.local.get(['isConnected']),
+  ]).then(([setting, storage]) =>
+    chrome.storage.local.set({
+      proxyControlledByOtherExtension:
+        Boolean(storage.isConnected) &&
+        setting.levelOfControl === 'controlled_by_other_extensions',
+    })
+  )
+}
 
-      const locations = storage.locations || freeLocations
-      const location = locations[storage.currentLocation]
+const connect = () => {
+  chrome.storage.local.get(['currentLocation', 'locations'], async (storage) => {
+    if (!storage.currentLocation) return
 
-      if (!location || !location.hosts) return
+    const locations = storage.locations || freeLocations
+    const location = locations[storage.currentLocation]
 
-      if (!isFirefox) {
-        chrome.management.getAll((extensions) => {
-          extensions.forEach((extension) => {
-            if (
-              extension.permissions &&
-              extension.permissions.includes('proxy')
-            ) {
-              if (extension.id !== chrome.runtime.id) {
-                chrome.management.setEnabled(extension.id, false)
-              }
-            }
-          })
+    if (!location || !location.hosts) return
+
+    if (!isFirefox) {
+      // Refuse to connect while another extension controls the proxy; the
+      // flag opens ProxyConflictModal in the popup.
+      const { levelOfControl } = await chrome.proxy.settings.get({})
+      if (levelOfControl === 'controlled_by_other_extensions') {
+        chrome.storage.local.set({
+          isConnected: false,
+          proxyControlledByOtherExtension: true,
         })
-
-        const randomizedHosts = [...location.hosts].sort(
-          () => Math.random() - 0.5
-        )
-        const pacScript = getPacScript(randomizedHosts)
-
-        chrome.proxy.settings
-          .set({
-            value: {
-              mode: 'pac_script',
-              pacScript: {
-                data: pacScript,
-                mandatory: true,
-              },
-            },
-            scope: 'regular',
-          })
-          .then(() => {
-            fetch(`https://${proxyAuthUrl}/ping/`)
-          })
+        return
       }
 
-      chrome.storage.local.set({ isConnected: true })
-      setBadge()
+      const randomizedHosts = [...location.hosts].sort(
+        () => Math.random() - 0.5
+      )
+      const pacScript = getPacScript(randomizedHosts)
+
+      chrome.proxy.settings
+        .set({
+          value: {
+            mode: 'pac_script',
+            pacScript: {
+              data: pacScript,
+              mandatory: true,
+            },
+          },
+          scope: 'regular',
+        })
+        .then(() => {
+          fetch(`https://${proxyAuthUrl}/ping/`)
+          syncProxyControl()
+        })
     }
-  )
+
+    chrome.storage.local.set({ isConnected: true })
+    setBadge()
+  })
 }
 
 const disconnect = () => {
@@ -120,8 +133,9 @@ const disconnect = () => {
   }
   chrome.storage.local.set({
     isConnected: false,
+    proxyControlledByOtherExtension: false,
   })
   chrome.action.setBadgeText({ text: '' })
 }
 
-export { handleProxyRequest, connect, disconnect }
+export { handleProxyRequest, connect, disconnect, syncProxyControl }

@@ -35,6 +35,18 @@
   "primaryApiBlockedPart2": {
     "message": " 를 사용합니다."
   },
+  "proxyConflictTitle": {
+    "message": "확장 프로그램 충돌"
+  },
+  "proxyControlledByOtherExtension": {
+    "message": "다른 확장 프로그램이 프록시 설정을 관리하고 있습니다."
+  },
+  "disableOtherExtensionButton": {
+    "message": "다른 확장 프로그램 비활성화"
+  },
+  "disableOtherExtensionsButton": {
+    "message": "다른 확장 프로그램 비활성화"
+  },
   "connected": {
     "message": "연결됨"
   },

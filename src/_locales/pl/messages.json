@@ -35,6 +35,18 @@
   "primaryApiBlockedPart2": {
     "message": "."
   },
+  "proxyConflictTitle": {
+    "message": "Konflikt rozszerzeń"
+  },
+  "proxyControlledByOtherExtension": {
+    "message": "Inne rozszerzenie zarządza ustawieniami proxy."
+  },
+  "disableOtherExtensionButton": {
+    "message": "Wyłącz inne rozszerzenie"
+  },
+  "disableOtherExtensionsButton": {
+    "message": "Wyłącz inne rozszerzenia"
+  },
   "connected": {
     "message": "Połączono"
   },

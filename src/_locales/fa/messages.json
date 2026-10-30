@@ -35,6 +35,18 @@
   "primaryApiBlockedPart2": {
     "message": " به‌عنوان پشتیبان استفاده می‌شود."
   },
+  "proxyConflictTitle": {
+    "message": "تداخل افزونه"
+  },
+  "proxyControlledByOtherExtension": {
+    "message": "افزونه دیگری تنظیمات پراکسی شما را مدیریت می‌کند."
+  },
+  "disableOtherExtensionButton": {
+    "message": "غیرفعال کردن افزونه دیگر"
+  },
+  "disableOtherExtensionsButton": {
+    "message": "غیرفعال کردن افزونه‌های دیگر"
+  },
   "connected": {
     "message": "متصل شده"
   },

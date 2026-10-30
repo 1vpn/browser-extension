@@ -35,6 +35,18 @@
   "primaryApiBlockedPart2": {
     "message": " як резервний."
   },
+  "proxyConflictTitle": {
+    "message": "Конфлікт розширень"
+  },
+  "proxyControlledByOtherExtension": {
+    "message": "Інше розширення керує вашими налаштуваннями проксі."
+  },
+  "disableOtherExtensionButton": {
+    "message": "Вимкнути інше розширення"
+  },
+  "disableOtherExtensionsButton": {
+    "message": "Вимкнути інші розширення"
+  },
   "connected": {
     "message": "Підключено"
   },

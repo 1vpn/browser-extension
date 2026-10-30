@@ -35,6 +35,18 @@
   "primaryApiBlockedPart2": {
     "message": " làm dự phòng."
   },
+  "proxyConflictTitle": {
+    "message": "Xung đột tiện ích mở rộng"
+  },
+  "proxyControlledByOtherExtension": {
+    "message": "Một tiện ích mở rộng khác đang quản lý cài đặt proxy của bạn."
+  },
+  "disableOtherExtensionButton": {
+    "message": "Tắt tiện ích mở rộng khác"
+  },
+  "disableOtherExtensionsButton": {
+    "message": "Tắt các tiện ích mở rộng khác"
+  },
   "connected": {
     "message": "Đã kết nối"
   },

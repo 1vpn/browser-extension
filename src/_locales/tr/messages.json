@@ -35,6 +35,18 @@
   "primaryApiBlockedPart2": {
     "message": " kullanılıyor."
   },
+  "proxyConflictTitle": {
+    "message": "Uzantı Çakışması"
+  },
+  "proxyControlledByOtherExtension": {
+    "message": "Başka bir uzantı proxy ayarlarınızı yönetiyor."
+  },
+  "disableOtherExtensionButton": {
+    "message": "Diğer uzantıyı devre dışı bırak"
+  },
+  "disableOtherExtensionsButton": {
+    "message": "Diğer uzantıları devre dışı bırak"
+  },
   "connected": {
     "message": "Bağlandı"
   },

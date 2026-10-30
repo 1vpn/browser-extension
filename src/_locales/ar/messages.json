@@ -35,6 +35,18 @@
   "primaryApiBlockedPart2": {
     "message": " كنسخة احتياطية."
   },
+  "proxyConflictTitle": {
+    "message": "تعارض في الإضافات"
+  },
+  "proxyControlledByOtherExtension": {
+    "message": "إضافة أخرى تدير إعدادات البروكسي لديك."
+  },
+  "disableOtherExtensionButton": {
+    "message": "تعطيل الإضافة الأخرى"
+  },
+  "disableOtherExtensionsButton": {
+    "message": "تعطيل الإضافات الأخرى"
+  },
   "connected": {
     "message": "متصل"
   },

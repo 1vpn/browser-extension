@@ -35,6 +35,18 @@
   "primaryApiBlockedPart2": {
     "message": " เป็นสำรอง"
   },
+  "proxyConflictTitle": {
+    "message": "ส่วนขยายขัดแย้งกัน"
+  },
+  "proxyControlledByOtherExtension": {
+    "message": "ส่วนขยายอื่นกำลังจัดการการตั้งค่าพร็อกซีของคุณอยู่"
+  },
+  "disableOtherExtensionButton": {
+    "message": "ปิดใช้งานส่วนขยายอื่น"
+  },
+  "disableOtherExtensionsButton": {
+    "message": "ปิดใช้งานส่วนขยายอื่น ๆ"
+  },
   "connected": {
     "message": "เชื่อมต่อแล้ว"
   },

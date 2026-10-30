@@ -11,6 +11,7 @@ import { mirrorInRtl } from 'utils/direction'
 import PageHeader from './PageHeader'
 import RatingModal from './RatingModal'
 import BlockedServersWarningModal from './BlockedServersWarningModal'
+import ProxyConflictModal from './ProxyConflictModal'
 
 const MainPage = ({
   activeUrl,
@@ -21,6 +22,8 @@ const MainPage = ({
   handleConnectionToggle,
   messages,
   primaryApiUnreachable,
+  proxyControlledByOtherExtension,
+  setProxyControlledByOtherExtension,
   installDate,
 }) => {
   const { setCurrentPage } = useContext(PageContext)
@@ -59,6 +62,11 @@ const MainPage = ({
         messages={messages}
       />
       {!isPremium && <BlockedServersWarningModal isConnected={isConnected} messages={messages} />}
+      <ProxyConflictModal
+        isOpen={proxyControlledByOtherExtension}
+        onClose={() => setProxyControlledByOtherExtension(false)}
+        messages={messages}
+      />
       <PageHeader
         left={
           <Link

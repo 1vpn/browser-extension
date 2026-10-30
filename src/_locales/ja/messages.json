@@ -35,6 +35,18 @@
   "primaryApiBlockedPart2": {
     "message": " を使用しています。"
   },
+  "proxyConflictTitle": {
+    "message": "拡張機能の競合"
+  },
+  "proxyControlledByOtherExtension": {
+    "message": "別の拡張機能がプロキシ設定を管理しています。"
+  },
+  "disableOtherExtensionButton": {
+    "message": "他の拡張機能を無効にする"
+  },
+  "disableOtherExtensionsButton": {
+    "message": "他の拡張機能を無効にする"
+  },
   "connected": {
     "message": "接続中"
   },

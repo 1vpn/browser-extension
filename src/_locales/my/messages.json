@@ -38,6 +38,18 @@
   "primaryApiBlockedPart2": {
     "message": " ကို အသုံးပြုနေသည်။"
   },
+  "proxyConflictTitle": {
+    "message": "Extension ပဋိပက္ခ"
+  },
+  "proxyControlledByOtherExtension": {
+    "message": "အခြား extension တစ်ခုက သင့် proxy ဆက်တင်များကို စီမံနေပါသည်။"
+  },
+  "disableOtherExtensionButton": {
+    "message": "အခြား extension ကို ပိတ်ရန်"
+  },
+  "disableOtherExtensionsButton": {
+    "message": "အခြား extension များကို ပိတ်ရန်"
+  },
   "connected": {
     "message": "ချိတ်ဆက်ထားသည်"
   },

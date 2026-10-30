@@ -2,7 +2,7 @@ import { isFirefox, freeCredentials, mainUrl, proxyAuthUrl } from 'utils/constan
 import { fetchUserData } from 'utils/userData'
 import setBadge from 'utils/setBadge'
 import apiFetch from 'utils/apiFetch'
-import { handleProxyRequest } from 'utils/manageProxy'
+import { handleProxyRequest, syncProxyControl } from 'utils/manageProxy'
 import logout from 'utils/logout'
 import spoofGeolocation from 'utils/spoofGeolocation'
 import freeLocations from 'utils/freeLocations'
@@ -40,9 +40,18 @@ chrome.runtime.onStartup.addListener(() => {
   chrome.storage.local.get(['isConnected'], (storage) => {
     if (storage.isConnected) {
       fetch(`https://${proxyAuthUrl}/ping/`)
+      syncProxyControl()
     }
   })
 })
+
+if (!isFirefox) {
+  // Fires when any extension (including this one) changes proxy settings, so
+  // the warning stays accurate if another extension takes over later.
+  chrome.proxy.settings.onChange.addListener(() => {
+    syncProxyControl()
+  })
+}
 
 chrome.webRequest.onAuthRequired.addListener(
   (details, callbackFn) => {

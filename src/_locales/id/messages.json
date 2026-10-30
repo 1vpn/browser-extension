@@ -35,6 +35,18 @@
   "primaryApiBlockedPart2": {
     "message": " sebagai cadangan."
   },
+  "proxyConflictTitle": {
+    "message": "Konflik Ekstensi"
+  },
+  "proxyControlledByOtherExtension": {
+    "message": "Ekstensi lain sedang mengelola pengaturan proxy Anda."
+  },
+  "disableOtherExtensionButton": {
+    "message": "Nonaktifkan ekstensi lain"
+  },
+  "disableOtherExtensionsButton": {
+    "message": "Nonaktifkan ekstensi lainnya"
+  },
   "connected": {
     "message": "Terhubung"
   },

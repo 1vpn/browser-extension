@@ -38,6 +38,18 @@
   "primaryApiBlockedPart2": {
     "message": " comme sauvegarde."
   },
+  "proxyConflictTitle": {
+    "message": "Conflit d'extensions"
+  },
+  "proxyControlledByOtherExtension": {
+    "message": "Une autre extension gère vos paramètres de proxy."
+  },
+  "disableOtherExtensionButton": {
+    "message": "Désactiver l'autre extension"
+  },
+  "disableOtherExtensionsButton": {
+    "message": "Désactiver les autres extensions"
+  },
   "connected": {
     "message": "Connecté"
   },

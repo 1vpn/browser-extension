@@ -1,5 +1,5 @@
 {
-  "permissions": ["webRequestAuthProvider"],
+  "permissions": ["webRequestAuthProvider", "management"],
   "background": {
     "service_worker": "background.bundle.js",
     "type": "module"

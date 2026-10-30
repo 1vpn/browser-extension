@@ -38,6 +38,18 @@
   "primaryApiBlockedPart2": {
     "message": " istifadə olunur."
   },
+  "proxyConflictTitle": {
+    "message": "Genişləndirmə konflikti"
+  },
+  "proxyControlledByOtherExtension": {
+    "message": "Başqa bir genişləndirmə proksi parametrlərinizi idarə edir."
+  },
+  "disableOtherExtensionButton": {
+    "message": "Digər genişləndirməni deaktiv et"
+  },
+  "disableOtherExtensionsButton": {
+    "message": "Digər genişləndirmələri deaktiv et"
+  },
   "connected": {
     "message": "Qoşulub"
   },

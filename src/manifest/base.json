@@ -20,7 +20,6 @@
     "webRequest",
     "privacy",
     "alarms",
-    "management",
     "scripting",
     "webNavigation"
   ],

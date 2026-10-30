@@ -35,6 +35,18 @@
   "primaryApiBlockedPart2": {
     "message": " 作為備援。"
   },
+  "proxyConflictTitle": {
+    "message": "擴充功能衝突"
+  },
+  "proxyControlledByOtherExtension": {
+    "message": "另一個擴充功能正在管理您的代理設定。"
+  },
+  "disableOtherExtensionButton": {
+    "message": "停用其他擴充功能"
+  },
+  "disableOtherExtensionsButton": {
+    "message": "停用其他擴充功能"
+  },
   "connected": {
     "message": "已連線"
   },
