@@ -30,6 +30,9 @@ export const theme = {
     red: '#eb3b5a',
     yellow: '#fed330',
   },
+  shadows: {
+    card: '0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a',
+  },
   link: {
     color: 'black',
     textDecoration: 'none',

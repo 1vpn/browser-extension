@@ -18,6 +18,7 @@ const PlanCard = ({
         border: '1px solid',
         borderColor: highlighted ? 'blue70' : 'borderGrey',
         backgroundColor: 'white',
+        boxShadow: highlighted ? 'card' : 'none',
       }}
     >
       <Flex
