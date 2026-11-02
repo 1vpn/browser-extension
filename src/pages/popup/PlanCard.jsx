@@ -16,8 +16,8 @@ const PlanCard = ({
         p: '24px',
         borderRadius: '12px',
         border: '1px solid',
-        borderColor: highlighted ? 'blue30' : 'borderGrey',
-        backgroundColor: highlighted ? 'blue10' : 'white',
+        borderColor: highlighted ? 'blue70' : 'borderGrey',
+        backgroundColor: 'white',
       }}
     >
       <Flex
