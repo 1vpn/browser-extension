@@ -18,10 +18,9 @@ function fetchFreeServers() {
   })
 }
 
-const browser = process.env.BROWSER
-const FREE_LOCATIONS_OVERRIDES = (browser === 'edge' || browser === 'firefox')
-  ? { sgp: { ratingLocked: true } }
-  : { sgp: { ratingPrompt: true } }
+// Every browser shows the rating prompt for Singapore; the refer/review
+// "to unlock" flow (ratingLocked) is no longer used on Edge or Firefox.
+const FREE_LOCATIONS_OVERRIDES = { sgp: { ratingPrompt: true } }
 
 async function updateFreeLocations() {
   const freeLocationsPath = path.join(__dirname, '../src/utils/freeLocations.js')
