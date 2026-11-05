@@ -1,6 +1,6 @@
 # 1VPN Browser Extension
 
-The 1VPN browser extension changes your IP address by routing your browser's internet traffic through one of our secure servers. 1VPN can be used to access region-restricted content, prevent ISPs and network administrators from knowing which websites you visit, bypass internet censorship, and protect against IP address-based tracking.
+1VPN can be used to bypass internet censorship, access region-restricted content, prevent ISPs and network administrators from knowing which websites you visit, and protect against IP address-based tracking.
 
 ## Downloads
 
