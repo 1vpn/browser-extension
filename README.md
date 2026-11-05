@@ -14,7 +14,7 @@ The 1VPN browser extension changes your IP address by routing your browser's int
 
 ## Manual Installation
 
-### Chrome / Edge
+### Chromium (Chrome/Edge)
 
 1. Download the zip file for your browser from the [releases page](https://github.com/1vpn/browser-extension/releases).
 2. Unzip it.
