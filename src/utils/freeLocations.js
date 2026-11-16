@@ -6,28 +6,22 @@ const freeLocations = {
     "countryCode": "nl",
     "hosts": [
       {
-        "hostname": "free-amsterdam-https-1.cloudburstcdn.com",
-        "port": 443
+        "hostname": "free-amsterdam-https-1.cloudburstcdn.com"
       },
       {
-        "hostname": "free-amsterdam-https-2.cloudflingcdn.com",
-        "port": 443
+        "hostname": "free-amsterdam-https-2.cloudflingcdn.com"
       },
       {
-        "hostname": "free-amsterdam-https-3.cloudflaracdn.com",
-        "port": 443
+        "hostname": "free-amsterdam-https-3.cloudflaracdn.com"
       },
       {
-        "hostname": "free-amsterdam-https-4.cloudflaracdn.com",
-        "port": 443
+        "hostname": "free-amsterdam-https-4.cloudflaracdn.com"
       },
       {
-        "hostname": "free-amsterdam-https-5.cloudflingcdn.com",
-        "port": 443
+        "hostname": "free-amsterdam-https-5.cloudflingcdn.com"
       },
       {
-        "hostname": "free-amsterdam-https-6.cloudflingcdn.com",
-        "port": 443
+        "hostname": "free-amsterdam-https-6.cloudflingcdn.com"
       }
     ],
     "latitude": 52.3891,
@@ -40,20 +34,16 @@ const freeLocations = {
     "countryCode": "sg",
     "hosts": [
       {
-        "hostname": "free-singapore-https-1.cloudburstcdn.com",
-        "port": 443
+        "hostname": "free-singapore-https-1.cloudburstcdn.com"
       },
       {
-        "hostname": "free-singapore-https-2.cloudtimecdn.com",
-        "port": 443
+        "hostname": "free-singapore-https-2.cloudtimecdn.com"
       },
       {
-        "hostname": "free-singapore-https-3.weathercloudapp.com",
-        "port": 443
+        "hostname": "free-singapore-https-3.weathercloudapp.com"
       },
       {
-        "hostname": "free-singapore-https-4.cloudflingcdn.com",
-        "port": 443
+        "hostname": "free-singapore-https-4.cloudflingcdn.com"
       }
     ],
     "latitude": 1.314,
@@ -67,28 +57,22 @@ const freeLocations = {
     "countryCode": "usw",
     "hosts": [
       {
-        "hostname": "free-los-angeles-https-1.cloudburstcdn.com",
-        "port": 443
+        "hostname": "free-los-angeles-https-1.cloudburstcdn.com"
       },
       {
-        "hostname": "free-los-angeles-https-2.cloudtimecdn.com",
-        "port": 443
+        "hostname": "free-los-angeles-https-2.cloudtimecdn.com"
       },
       {
-        "hostname": "free-los-angeles-https-3.cloudflaracdn.com",
-        "port": 443
+        "hostname": "free-los-angeles-https-3.cloudflaracdn.com"
       },
       {
-        "hostname": "free-los-angeles-https-4.cloudflaracdn.com",
-        "port": 443
+        "hostname": "free-los-angeles-https-4.cloudflaracdn.com"
       },
       {
-        "hostname": "free-los-angeles-https-5.cloudflingcdn.com",
-        "port": 443
+        "hostname": "free-los-angeles-https-5.cloudflingcdn.com"
       },
       {
-        "hostname": "free-los-angeles-https-6.cloudflingcdn.com",
-        "port": 443
+        "hostname": "free-los-angeles-https-6.cloudflingcdn.com"
       }
     ],
     "latitude": 34.0609,
@@ -262,18 +246,18 @@ const freeLocations = {
     "countryCode": "us",
     "isPremium": true
   },
-  "sjc": {
-    "city": "San Francisco",
-    "cityCode": "sjc",
-    "country": "United States",
-    "countryCode": "us",
-    "isPremium": true
-  },
   "atl": {
     "city": "Atlanta",
     "cityCode": "atl",
     "country": "United States",
     "countryCode": "uss",
+    "isPremium": true
+  },
+  "sjc": {
+    "city": "San Francisco",
+    "cityCode": "sjc",
+    "country": "United States",
+    "countryCode": "us",
     "isPremium": true
   },
   "ewr": {

@@ -25,7 +25,7 @@ const handleProxyRequest = (details) => {
             resolve(randomizedHosts.map((host) => ({
               type: 'https',
               host: host.hostname,
-              port: host.port,
+              port: host.port || 443,
             })))
           } else {
             resolve({ type: 'direct' })
@@ -41,7 +41,7 @@ const handleProxyRequest = (details) => {
 const getPacScript = (hosts) => {
   const hostNamesString = hosts.reduce(
     (hostsString, host) =>
-      (hostsString += `HTTPS ${host.hostname}:${host.port};`),
+      (hostsString += `HTTPS ${host.hostname}:${host.port || 443};`),
     ''
   )
 
