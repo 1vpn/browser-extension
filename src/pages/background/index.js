@@ -2,7 +2,11 @@ import { isFirefox, freeCredentials, mainUrl, proxyAuthUrl } from 'utils/constan
 import { fetchUserData } from 'utils/userData'
 import setBadge from 'utils/setBadge'
 import apiFetch from 'utils/apiFetch'
-import { handleProxyRequest, syncProxyControl } from 'utils/manageProxy'
+import {
+  handleProxyRequest,
+  syncProxyControl,
+  isOwnProxyHost,
+} from 'utils/manageProxy'
 import logout from 'utils/logout'
 import spoofGeolocation from 'utils/spoofGeolocation'
 import freeLocations from 'utils/freeLocations'
@@ -55,23 +59,33 @@ if (!isFirefox) {
 
 chrome.webRequest.onAuthRequired.addListener(
   (details, callbackFn) => {
-    const getCredentialsAsync = () => {
-      return new Promise((resolve, reject) => {
-        chrome.storage.local.get(
-          ['isPremium', 'username', 'sessionAuthToken'],
-          (storage) => {
-            if (chrome.runtime.lastError) {
-              reject(new Error(chrome.runtime.lastError))
-            } else {
-              const credentials = storage.isPremium
-                ? {
-                    username: storage.username,
-                    password: storage.sessionAuthToken,
-                  }
-                : freeCredentials
+    if (!details.isProxy) {
+      if (isFirefox) return
+      callbackFn()
+      return
+    }
 
-              resolve({ authCredentials: credentials })
+    const getCredentialsAsync = () => {
+      return new Promise((resolve) => {
+        chrome.storage.local.get(
+          ['isPremium', 'username', 'sessionAuthToken', 'locations'],
+          (storage) => {
+            if (
+              chrome.runtime.lastError ||
+              !isOwnProxyHost(details.challenger.host, storage.locations)
+            ) {
+              resolve({})
+              return
             }
+
+            const credentials = storage.isPremium
+              ? {
+                  username: storage.username,
+                  password: storage.sessionAuthToken,
+                }
+              : freeCredentials
+
+            resolve({ authCredentials: credentials })
           }
         )
       })

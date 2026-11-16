@@ -38,6 +38,18 @@ const handleProxyRequest = (details) => {
   })
 }
 
+const isOwnProxyHost = (hostname, storedLocations) => {
+  const challengerHost = hostname.toLowerCase()
+
+  return [storedLocations, freeLocations].some((locations) =>
+    Object.values(locations || {}).some((location) =>
+      location.hosts?.some(
+        (host) => host.hostname.toLowerCase() === challengerHost
+      )
+    )
+  )
+}
+
 const getPacScript = (hosts) => {
   const hostNamesString = hosts.reduce(
     (hostsString, host) =>
@@ -138,4 +150,10 @@ const disconnect = () => {
   chrome.action.setBadgeText({ text: '' })
 }
 
-export { handleProxyRequest, connect, disconnect, syncProxyControl }
+export {
+  handleProxyRequest,
+  connect,
+  disconnect,
+  syncProxyControl,
+  isOwnProxyHost,
+}
