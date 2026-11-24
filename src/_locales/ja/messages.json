@@ -377,6 +377,69 @@
   "za": {
     "message": "南アフリカ"
   },
+  "it": {
+    "message": "イタリア"
+  },
+  "hk": {
+    "message": "香港"
+  },
+  "ae": {
+    "message": "アラブ首長国連邦"
+  },
+  "kz": {
+    "message": "カザフスタン"
+  },
+  "fi": {
+    "message": "フィンランド"
+  },
+  "tr": {
+    "message": "トルコ"
+  },
+  "lu": {
+    "message": "ルクセンブルク"
+  },
+  "az": {
+    "message": "アゼルバイジャン"
+  },
+  "uz": {
+    "message": "ウズベキスタン"
+  },
+  "ru": {
+    "message": "ロシア"
+  },
+  "ee": {
+    "message": "エストニア"
+  },
+  "be": {
+    "message": "ベルギー"
+  },
+  "ch": {
+    "message": "スイス"
+  },
+  "gr": {
+    "message": "ギリシャ"
+  },
+  "bg": {
+    "message": "ブルガリア"
+  },
+  "at": {
+    "message": "オーストリア"
+  },
+  "ke": {
+    "message": "ケニア"
+  },
+  "ie": {
+    "message": "アイルランド"
+  },
+  "tw": {
+    "message": "台湾"
+  },
+  "ph": {
+    "message": "フィリピン"
+  },
+  "my": {
+    "message": "マレーシア"
+  },
   "syd": {
     "message": "シドニー"
   },
@@ -472,6 +535,75 @@
   },
   "tlv": {
     "message": "テルアビブ"
+  },
+  "otp": {
+    "message": "ブカレスト"
+  },
+  "mxp": {
+    "message": "ミラノ"
+  },
+  "hkg": {
+    "message": "香港"
+  },
+  "dxb": {
+    "message": "ドバイ"
+  },
+  "ala": {
+    "message": "アルマトイ"
+  },
+  "hel": {
+    "message": "ヘルシンキ"
+  },
+  "ist": {
+    "message": "イスタンブール"
+  },
+  "lux": {
+    "message": "ルクセンブルク"
+  },
+  "gyd": {
+    "message": "バクー"
+  },
+  "tas": {
+    "message": "タシケント"
+  },
+  "led": {
+    "message": "サンクトペテルブルク"
+  },
+  "tll": {
+    "message": "タリン"
+  },
+  "bru": {
+    "message": "ブリュッセル"
+  },
+  "zrh": {
+    "message": "チューリッヒ"
+  },
+  "ath": {
+    "message": "アテネ"
+  },
+  "sof": {
+    "message": "ソフィア"
+  },
+  "vie": {
+    "message": "ウィーン"
+  },
+  "nbo": {
+    "message": "ナイロビ"
+  },
+  "dub": {
+    "message": "ダブリン"
+  },
+  "yul": {
+    "message": "モントリオール"
+  },
+  "tpe": {
+    "message": "台北"
+  },
+  "mnl": {
+    "message": "マニラ"
+  },
+  "jhb": {
+    "message": "ジョホールバル"
   },
   "loginEnterEmailAndPassword": {
     "message": "メールアドレスとパスワードを入力してください"

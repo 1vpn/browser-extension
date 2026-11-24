@@ -377,6 +377,69 @@
   "za": {
     "message": "南非"
   },
+  "it": {
+    "message": "意大利"
+  },
+  "hk": {
+    "message": "香港"
+  },
+  "ae": {
+    "message": "阿联酋"
+  },
+  "kz": {
+    "message": "哈萨克斯坦"
+  },
+  "fi": {
+    "message": "芬兰"
+  },
+  "tr": {
+    "message": "土耳其"
+  },
+  "lu": {
+    "message": "卢森堡"
+  },
+  "az": {
+    "message": "阿塞拜疆"
+  },
+  "uz": {
+    "message": "乌兹别克斯坦"
+  },
+  "ru": {
+    "message": "俄罗斯"
+  },
+  "ee": {
+    "message": "爱沙尼亚"
+  },
+  "be": {
+    "message": "比利时"
+  },
+  "ch": {
+    "message": "瑞士"
+  },
+  "gr": {
+    "message": "希腊"
+  },
+  "bg": {
+    "message": "保加利亚"
+  },
+  "at": {
+    "message": "奥地利"
+  },
+  "ke": {
+    "message": "肯尼亚"
+  },
+  "ie": {
+    "message": "爱尔兰"
+  },
+  "tw": {
+    "message": "台湾"
+  },
+  "ph": {
+    "message": "菲律宾"
+  },
+  "my": {
+    "message": "马来西亚"
+  },
   "syd": {
     "message": "悉尼"
   },
@@ -472,6 +535,75 @@
   },
   "tlv": {
     "message": "特拉维夫"
+  },
+  "otp": {
+    "message": "布加勒斯特"
+  },
+  "mxp": {
+    "message": "米兰"
+  },
+  "hkg": {
+    "message": "香港"
+  },
+  "dxb": {
+    "message": "迪拜"
+  },
+  "ala": {
+    "message": "阿拉木图"
+  },
+  "hel": {
+    "message": "赫尔辛基"
+  },
+  "ist": {
+    "message": "伊斯坦布尔"
+  },
+  "lux": {
+    "message": "卢森堡"
+  },
+  "gyd": {
+    "message": "巴库"
+  },
+  "tas": {
+    "message": "塔什干"
+  },
+  "led": {
+    "message": "圣彼得堡"
+  },
+  "tll": {
+    "message": "塔林"
+  },
+  "bru": {
+    "message": "布鲁塞尔"
+  },
+  "zrh": {
+    "message": "苏黎世"
+  },
+  "ath": {
+    "message": "雅典"
+  },
+  "sof": {
+    "message": "索非亚"
+  },
+  "vie": {
+    "message": "维也纳"
+  },
+  "nbo": {
+    "message": "内罗毕"
+  },
+  "dub": {
+    "message": "都柏林"
+  },
+  "yul": {
+    "message": "蒙特利尔"
+  },
+  "tpe": {
+    "message": "台北"
+  },
+  "mnl": {
+    "message": "马尼拉"
+  },
+  "jhb": {
+    "message": "新山"
   },
   "loginEnterEmailAndPassword": {
     "message": "请输入邮箱和密码"

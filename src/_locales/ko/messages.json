@@ -377,6 +377,69 @@
   "za": {
     "message": "남아프리카 공화국"
   },
+  "it": {
+    "message": "이탈리아"
+  },
+  "hk": {
+    "message": "홍콩"
+  },
+  "ae": {
+    "message": "아랍에미리트"
+  },
+  "kz": {
+    "message": "카자흐스탄"
+  },
+  "fi": {
+    "message": "핀란드"
+  },
+  "tr": {
+    "message": "튀르키예"
+  },
+  "lu": {
+    "message": "룩셈부르크"
+  },
+  "az": {
+    "message": "아제르바이잔"
+  },
+  "uz": {
+    "message": "우즈베키스탄"
+  },
+  "ru": {
+    "message": "러시아"
+  },
+  "ee": {
+    "message": "에스토니아"
+  },
+  "be": {
+    "message": "벨기에"
+  },
+  "ch": {
+    "message": "스위스"
+  },
+  "gr": {
+    "message": "그리스"
+  },
+  "bg": {
+    "message": "불가리아"
+  },
+  "at": {
+    "message": "오스트리아"
+  },
+  "ke": {
+    "message": "케냐"
+  },
+  "ie": {
+    "message": "아일랜드"
+  },
+  "tw": {
+    "message": "대만"
+  },
+  "ph": {
+    "message": "필리핀"
+  },
+  "my": {
+    "message": "말레이시아"
+  },
   "syd": {
     "message": "시드니"
   },
@@ -472,6 +535,75 @@
   },
   "tlv": {
     "message": "텔아비브"
+  },
+  "otp": {
+    "message": "부쿠레슈티"
+  },
+  "mxp": {
+    "message": "밀라노"
+  },
+  "hkg": {
+    "message": "홍콩"
+  },
+  "dxb": {
+    "message": "두바이"
+  },
+  "ala": {
+    "message": "알마티"
+  },
+  "hel": {
+    "message": "헬싱키"
+  },
+  "ist": {
+    "message": "이스탄불"
+  },
+  "lux": {
+    "message": "룩셈부르크"
+  },
+  "gyd": {
+    "message": "바쿠"
+  },
+  "tas": {
+    "message": "타슈켄트"
+  },
+  "led": {
+    "message": "상트페테르부르크"
+  },
+  "tll": {
+    "message": "탈린"
+  },
+  "bru": {
+    "message": "브뤼셀"
+  },
+  "zrh": {
+    "message": "취리히"
+  },
+  "ath": {
+    "message": "아테네"
+  },
+  "sof": {
+    "message": "소피아"
+  },
+  "vie": {
+    "message": "빈"
+  },
+  "nbo": {
+    "message": "나이로비"
+  },
+  "dub": {
+    "message": "더블린"
+  },
+  "yul": {
+    "message": "몬트리올"
+  },
+  "tpe": {
+    "message": "타이베이"
+  },
+  "mnl": {
+    "message": "마닐라"
+  },
+  "jhb": {
+    "message": "조호르바루"
   },
   "loginEnterEmailAndPassword": {
     "message": "이메일과 비밀번호를 입력하세요"

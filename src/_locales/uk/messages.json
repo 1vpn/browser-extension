@@ -371,6 +371,69 @@
   "za": {
     "message": "Південна Африка"
   },
+  "it": {
+    "message": "Італія"
+  },
+  "hk": {
+    "message": "Гонконг"
+  },
+  "ae": {
+    "message": "ОАЕ"
+  },
+  "kz": {
+    "message": "Казахстан"
+  },
+  "fi": {
+    "message": "Фінляндія"
+  },
+  "tr": {
+    "message": "Туреччина"
+  },
+  "lu": {
+    "message": "Люксембург"
+  },
+  "az": {
+    "message": "Азербайджан"
+  },
+  "uz": {
+    "message": "Узбекистан"
+  },
+  "ru": {
+    "message": "Росія"
+  },
+  "ee": {
+    "message": "Естонія"
+  },
+  "be": {
+    "message": "Бельгія"
+  },
+  "ch": {
+    "message": "Швейцарія"
+  },
+  "gr": {
+    "message": "Греція"
+  },
+  "bg": {
+    "message": "Болгарія"
+  },
+  "at": {
+    "message": "Австрія"
+  },
+  "ke": {
+    "message": "Кенія"
+  },
+  "ie": {
+    "message": "Ірландія"
+  },
+  "tw": {
+    "message": "Тайвань"
+  },
+  "ph": {
+    "message": "Філіппіни"
+  },
+  "my": {
+    "message": "Малайзія"
+  },
   "syd": {
     "message": "Сідней"
   },
@@ -466,6 +529,75 @@
   },
   "tlv": {
     "message": "Тель-Авів"
+  },
+  "otp": {
+    "message": "Бухарест"
+  },
+  "mxp": {
+    "message": "Мілан"
+  },
+  "hkg": {
+    "message": "Гонконг"
+  },
+  "dxb": {
+    "message": "Дубай"
+  },
+  "ala": {
+    "message": "Алмати"
+  },
+  "hel": {
+    "message": "Гельсінкі"
+  },
+  "ist": {
+    "message": "Стамбул"
+  },
+  "lux": {
+    "message": "Люксембург"
+  },
+  "gyd": {
+    "message": "Баку"
+  },
+  "tas": {
+    "message": "Ташкент"
+  },
+  "led": {
+    "message": "Санкт-Петербург"
+  },
+  "tll": {
+    "message": "Таллінн"
+  },
+  "bru": {
+    "message": "Брюссель"
+  },
+  "zrh": {
+    "message": "Цюрих"
+  },
+  "ath": {
+    "message": "Афіни"
+  },
+  "sof": {
+    "message": "Софія"
+  },
+  "vie": {
+    "message": "Відень"
+  },
+  "nbo": {
+    "message": "Найробі"
+  },
+  "dub": {
+    "message": "Дублін"
+  },
+  "yul": {
+    "message": "Монреаль"
+  },
+  "tpe": {
+    "message": "Тайбей"
+  },
+  "mnl": {
+    "message": "Маніла"
+  },
+  "jhb": {
+    "message": "Джохор-Бару"
   },
   "loginEnterEmailAndPassword": {
     "message": "Введіть адресу електронної пошти та пароль"

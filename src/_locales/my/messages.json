@@ -374,6 +374,69 @@
   "za": {
     "message": "တောင်အာဖရိက"
   },
+  "it": {
+    "message": "အီတလီ"
+  },
+  "hk": {
+    "message": "ဟောင်ကောင်"
+  },
+  "ae": {
+    "message": "ယူအေအီး"
+  },
+  "kz": {
+    "message": "ကာဇက်စတန်"
+  },
+  "fi": {
+    "message": "ဖင်လန်"
+  },
+  "tr": {
+    "message": "တူရကီ"
+  },
+  "lu": {
+    "message": "လူဇင်ဘတ်"
+  },
+  "az": {
+    "message": "အဇာဘိုင်ဂျန်"
+  },
+  "uz": {
+    "message": "ဥဇဘက်ကစ္စတန်"
+  },
+  "ru": {
+    "message": "ရုရှား"
+  },
+  "ee": {
+    "message": "အက်စတိုးနီးယား"
+  },
+  "be": {
+    "message": "ဘယ်လ်ဂျီယမ်"
+  },
+  "ch": {
+    "message": "ဆွစ်ဇာလန်"
+  },
+  "gr": {
+    "message": "ဂရိ"
+  },
+  "bg": {
+    "message": "ဘူလ်ဂေးရီးယား"
+  },
+  "at": {
+    "message": "ဩစတြီးယား"
+  },
+  "ke": {
+    "message": "ကင်ညာ"
+  },
+  "ie": {
+    "message": "အိုင်ယာလန်"
+  },
+  "tw": {
+    "message": "ထိုင်ဝမ်"
+  },
+  "ph": {
+    "message": "ဖိလစ်ပိုင်"
+  },
+  "my": {
+    "message": "မလေးရှား"
+  },
   "syd": {
     "message": "ဆစ်ဒနီ"
   },
@@ -469,6 +532,75 @@
   },
   "tlv": {
     "message": "တဲလ်အဗစ်"
+  },
+  "otp": {
+    "message": "ဘူခါရက်စ်"
+  },
+  "mxp": {
+    "message": "မီလန်"
+  },
+  "hkg": {
+    "message": "ဟောင်ကောင်"
+  },
+  "dxb": {
+    "message": "ဒူဘိုင်း"
+  },
+  "ala": {
+    "message": "အယ်လ်မာတီ"
+  },
+  "hel": {
+    "message": "ဟယ်လ်ဆင်ကီ"
+  },
+  "ist": {
+    "message": "အစ္စတန်ဘူလ်"
+  },
+  "lux": {
+    "message": "လူဇင်ဘတ်"
+  },
+  "gyd": {
+    "message": "ဘာကူး"
+  },
+  "tas": {
+    "message": "တာရှကန့်"
+  },
+  "led": {
+    "message": "စိန့်ပီတာစဘတ်"
+  },
+  "tll": {
+    "message": "တာလင်း"
+  },
+  "bru": {
+    "message": "ဘရပ်ဆဲလ်"
+  },
+  "zrh": {
+    "message": "ဇူးရစ်"
+  },
+  "ath": {
+    "message": "အေသင်"
+  },
+  "sof": {
+    "message": "ဆိုဖီယာ"
+  },
+  "vie": {
+    "message": "ဗီယင်နာ"
+  },
+  "nbo": {
+    "message": "နိုင်ရိုဘီ"
+  },
+  "dub": {
+    "message": "ဒပ်ဗလင်"
+  },
+  "yul": {
+    "message": "မွန်ထရီအယ်"
+  },
+  "tpe": {
+    "message": "ထိုင်ပေ"
+  },
+  "mnl": {
+    "message": "မနီလာ"
+  },
+  "jhb": {
+    "message": "ဂျိုဟိုးဘာရူး"
   },
   "loginEnterEmailAndPassword": {
     "message": "အီးမေးလ်နှင့် စကားဝှက်ကို ထည့်သွင်းပါ"

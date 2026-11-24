@@ -374,6 +374,69 @@
   "za": {
     "message": "Cənubi Afrika"
   },
+  "it": {
+    "message": "İtaliya"
+  },
+  "hk": {
+    "message": "Honq Konq"
+  },
+  "ae": {
+    "message": "Birləşmiş Ərəb Əmirlikləri"
+  },
+  "kz": {
+    "message": "Qazaxıstan"
+  },
+  "fi": {
+    "message": "Finlandiya"
+  },
+  "tr": {
+    "message": "Türkiyə"
+  },
+  "lu": {
+    "message": "Lüksemburq"
+  },
+  "az": {
+    "message": "Azərbaycan"
+  },
+  "uz": {
+    "message": "Özbəkistan"
+  },
+  "ru": {
+    "message": "Rusiya"
+  },
+  "ee": {
+    "message": "Estoniya"
+  },
+  "be": {
+    "message": "Belçika"
+  },
+  "ch": {
+    "message": "İsveçrə"
+  },
+  "gr": {
+    "message": "Yunanıstan"
+  },
+  "bg": {
+    "message": "Bolqarıstan"
+  },
+  "at": {
+    "message": "Avstriya"
+  },
+  "ke": {
+    "message": "Keniya"
+  },
+  "ie": {
+    "message": "İrlandiya"
+  },
+  "tw": {
+    "message": "Tayvan"
+  },
+  "ph": {
+    "message": "Filippin"
+  },
+  "my": {
+    "message": "Malayziya"
+  },
   "syd": {
     "message": "Sidney"
   },
@@ -469,6 +532,75 @@
   },
   "tlv": {
     "message": "Təl-Əviv"
+  },
+  "otp": {
+    "message": "Buxarest"
+  },
+  "mxp": {
+    "message": "Milan"
+  },
+  "hkg": {
+    "message": "Honq Konq"
+  },
+  "dxb": {
+    "message": "Dubay"
+  },
+  "ala": {
+    "message": "Almatı"
+  },
+  "hel": {
+    "message": "Helsinki"
+  },
+  "ist": {
+    "message": "İstanbul"
+  },
+  "lux": {
+    "message": "Lüksemburq"
+  },
+  "gyd": {
+    "message": "Bakı"
+  },
+  "tas": {
+    "message": "Daşkənd"
+  },
+  "led": {
+    "message": "Sankt-Peterburq"
+  },
+  "tll": {
+    "message": "Tallin"
+  },
+  "bru": {
+    "message": "Brüssel"
+  },
+  "zrh": {
+    "message": "Sürix"
+  },
+  "ath": {
+    "message": "Afina"
+  },
+  "sof": {
+    "message": "Sofiya"
+  },
+  "vie": {
+    "message": "Vyana"
+  },
+  "nbo": {
+    "message": "Nayrobi"
+  },
+  "dub": {
+    "message": "Dublin"
+  },
+  "yul": {
+    "message": "Monreal"
+  },
+  "tpe": {
+    "message": "Taybey"
+  },
+  "mnl": {
+    "message": "Manila"
+  },
+  "jhb": {
+    "message": "Cohor-Baru"
   },
   "loginEnterEmailAndPassword": {
     "message": "Zəhmət olmasa e-poçt və şifrəni daxil edin"

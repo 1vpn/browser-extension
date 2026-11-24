@@ -371,6 +371,69 @@
   "za": {
     "message": "แอฟริกาใต้"
   },
+  "it": {
+    "message": "อิตาลี"
+  },
+  "hk": {
+    "message": "ฮ่องกง"
+  },
+  "ae": {
+    "message": "สหรัฐอาหรับเอมิเรตส์"
+  },
+  "kz": {
+    "message": "คาซัคสถาน"
+  },
+  "fi": {
+    "message": "ฟินแลนด์"
+  },
+  "tr": {
+    "message": "ตุรกี"
+  },
+  "lu": {
+    "message": "ลักเซมเบิร์ก"
+  },
+  "az": {
+    "message": "อาเซอร์ไบจาน"
+  },
+  "uz": {
+    "message": "อุซเบกิสถาน"
+  },
+  "ru": {
+    "message": "รัสเซีย"
+  },
+  "ee": {
+    "message": "เอสโตเนีย"
+  },
+  "be": {
+    "message": "เบลเยียม"
+  },
+  "ch": {
+    "message": "สวิตเซอร์แลนด์"
+  },
+  "gr": {
+    "message": "กรีซ"
+  },
+  "bg": {
+    "message": "บัลแกเรีย"
+  },
+  "at": {
+    "message": "ออสเตรีย"
+  },
+  "ke": {
+    "message": "เคนยา"
+  },
+  "ie": {
+    "message": "ไอร์แลนด์"
+  },
+  "tw": {
+    "message": "ไต้หวัน"
+  },
+  "ph": {
+    "message": "ฟิลิปปินส์"
+  },
+  "my": {
+    "message": "มาเลเซีย"
+  },
   "syd": {
     "message": "ซิดนีย์"
   },
@@ -466,6 +529,75 @@
   },
   "tlv": {
     "message": "เทลอาวีฟ"
+  },
+  "otp": {
+    "message": "บูคาเรสต์"
+  },
+  "mxp": {
+    "message": "มิลาน"
+  },
+  "hkg": {
+    "message": "ฮ่องกง"
+  },
+  "dxb": {
+    "message": "ดูไบ"
+  },
+  "ala": {
+    "message": "อัลมาตี"
+  },
+  "hel": {
+    "message": "เฮลซิงกิ"
+  },
+  "ist": {
+    "message": "อิสตันบูล"
+  },
+  "lux": {
+    "message": "ลักเซมเบิร์ก"
+  },
+  "gyd": {
+    "message": "บากู"
+  },
+  "tas": {
+    "message": "ทาชเคนต์"
+  },
+  "led": {
+    "message": "เซนต์ปีเตอร์สเบิร์ก"
+  },
+  "tll": {
+    "message": "ทาลลินน์"
+  },
+  "bru": {
+    "message": "บรัสเซลส์"
+  },
+  "zrh": {
+    "message": "ซูริก"
+  },
+  "ath": {
+    "message": "เอเธนส์"
+  },
+  "sof": {
+    "message": "โซเฟีย"
+  },
+  "vie": {
+    "message": "เวียนนา"
+  },
+  "nbo": {
+    "message": "ไนโรบี"
+  },
+  "dub": {
+    "message": "ดับลิน"
+  },
+  "yul": {
+    "message": "มอนทรีออล"
+  },
+  "tpe": {
+    "message": "ไทเป"
+  },
+  "mnl": {
+    "message": "มะนิลา"
+  },
+  "jhb": {
+    "message": "ยะโฮร์บาห์รู"
   },
   "loginEnterEmailAndPassword": {
     "message": "กรุณาใส่อีเมลและรหัสผ่าน"

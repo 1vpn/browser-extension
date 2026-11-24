@@ -371,6 +371,69 @@
   "za": {
     "message": "Sudafrica"
   },
+  "it": {
+    "message": "Italia"
+  },
+  "hk": {
+    "message": "Hong Kong"
+  },
+  "ae": {
+    "message": "Emirati Arabi Uniti"
+  },
+  "kz": {
+    "message": "Kazakistan"
+  },
+  "fi": {
+    "message": "Finlandia"
+  },
+  "tr": {
+    "message": "Turchia"
+  },
+  "lu": {
+    "message": "Lussemburgo"
+  },
+  "az": {
+    "message": "Azerbaigian"
+  },
+  "uz": {
+    "message": "Uzbekistan"
+  },
+  "ru": {
+    "message": "Russia"
+  },
+  "ee": {
+    "message": "Estonia"
+  },
+  "be": {
+    "message": "Belgio"
+  },
+  "ch": {
+    "message": "Svizzera"
+  },
+  "gr": {
+    "message": "Grecia"
+  },
+  "bg": {
+    "message": "Bulgaria"
+  },
+  "at": {
+    "message": "Austria"
+  },
+  "ke": {
+    "message": "Kenya"
+  },
+  "ie": {
+    "message": "Irlanda"
+  },
+  "tw": {
+    "message": "Taiwan"
+  },
+  "ph": {
+    "message": "Filippine"
+  },
+  "my": {
+    "message": "Malaysia"
+  },
   "syd": {
     "message": "Sydney"
   },
@@ -466,6 +529,75 @@
   },
   "tlv": {
     "message": "Tel Aviv"
+  },
+  "otp": {
+    "message": "Bucarest"
+  },
+  "mxp": {
+    "message": "Milano"
+  },
+  "hkg": {
+    "message": "Hong Kong"
+  },
+  "dxb": {
+    "message": "Dubai"
+  },
+  "ala": {
+    "message": "Almaty"
+  },
+  "hel": {
+    "message": "Helsinki"
+  },
+  "ist": {
+    "message": "Istanbul"
+  },
+  "lux": {
+    "message": "Lussemburgo"
+  },
+  "gyd": {
+    "message": "Baku"
+  },
+  "tas": {
+    "message": "Tashkent"
+  },
+  "led": {
+    "message": "San Pietroburgo"
+  },
+  "tll": {
+    "message": "Tallinn"
+  },
+  "bru": {
+    "message": "Bruxelles"
+  },
+  "zrh": {
+    "message": "Zurigo"
+  },
+  "ath": {
+    "message": "Atene"
+  },
+  "sof": {
+    "message": "Sofia"
+  },
+  "vie": {
+    "message": "Vienna"
+  },
+  "nbo": {
+    "message": "Nairobi"
+  },
+  "dub": {
+    "message": "Dublino"
+  },
+  "yul": {
+    "message": "Montréal"
+  },
+  "tpe": {
+    "message": "Taipei"
+  },
+  "mnl": {
+    "message": "Manila"
+  },
+  "jhb": {
+    "message": "Johor Bahru"
   },
   "loginEnterEmailAndPassword": {
     "message": "Inserisci email e password"

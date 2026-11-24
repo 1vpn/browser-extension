@@ -377,6 +377,69 @@
   "za": {
     "message": "Nam Phi"
   },
+  "it": {
+    "message": "Ý"
+  },
+  "hk": {
+    "message": "Hồng Kông"
+  },
+  "ae": {
+    "message": "UAE"
+  },
+  "kz": {
+    "message": "Kazakhstan"
+  },
+  "fi": {
+    "message": "Phần Lan"
+  },
+  "tr": {
+    "message": "Thổ Nhĩ Kỳ"
+  },
+  "lu": {
+    "message": "Luxembourg"
+  },
+  "az": {
+    "message": "Azerbaijan"
+  },
+  "uz": {
+    "message": "Uzbekistan"
+  },
+  "ru": {
+    "message": "Nga"
+  },
+  "ee": {
+    "message": "Estonia"
+  },
+  "be": {
+    "message": "Bỉ"
+  },
+  "ch": {
+    "message": "Thụy Sĩ"
+  },
+  "gr": {
+    "message": "Hy Lạp"
+  },
+  "bg": {
+    "message": "Bulgaria"
+  },
+  "at": {
+    "message": "Áo"
+  },
+  "ke": {
+    "message": "Kenya"
+  },
+  "ie": {
+    "message": "Ireland"
+  },
+  "tw": {
+    "message": "Đài Loan"
+  },
+  "ph": {
+    "message": "Philippines"
+  },
+  "my": {
+    "message": "Malaysia"
+  },
   "syd": {
     "message": "Sydney"
   },
@@ -472,6 +535,75 @@
   },
   "tlv": {
     "message": "Tel Aviv"
+  },
+  "otp": {
+    "message": "Bucharest"
+  },
+  "mxp": {
+    "message": "Milan"
+  },
+  "hkg": {
+    "message": "Hồng Kông"
+  },
+  "dxb": {
+    "message": "Dubai"
+  },
+  "ala": {
+    "message": "Almaty"
+  },
+  "hel": {
+    "message": "Helsinki"
+  },
+  "ist": {
+    "message": "Istanbul"
+  },
+  "lux": {
+    "message": "Luxembourg"
+  },
+  "gyd": {
+    "message": "Baku"
+  },
+  "tas": {
+    "message": "Tashkent"
+  },
+  "led": {
+    "message": "Saint Petersburg"
+  },
+  "tll": {
+    "message": "Tallinn"
+  },
+  "bru": {
+    "message": "Brussels"
+  },
+  "zrh": {
+    "message": "Zurich"
+  },
+  "ath": {
+    "message": "Athens"
+  },
+  "sof": {
+    "message": "Sofia"
+  },
+  "vie": {
+    "message": "Viên"
+  },
+  "nbo": {
+    "message": "Nairobi"
+  },
+  "dub": {
+    "message": "Dublin"
+  },
+  "yul": {
+    "message": "Montreal"
+  },
+  "tpe": {
+    "message": "Đài Bắc"
+  },
+  "mnl": {
+    "message": "Manila"
+  },
+  "jhb": {
+    "message": "Johor Bahru"
   },
   "loginEnterEmailAndPassword": {
     "message": "Vui lòng nhập email và mật khẩu"

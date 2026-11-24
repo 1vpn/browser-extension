@@ -377,6 +377,69 @@
   "za": {
     "message": "南非"
   },
+  "it": {
+    "message": "義大利"
+  },
+  "hk": {
+    "message": "香港"
+  },
+  "ae": {
+    "message": "阿拉伯聯合大公國"
+  },
+  "kz": {
+    "message": "哈薩克"
+  },
+  "fi": {
+    "message": "芬蘭"
+  },
+  "tr": {
+    "message": "土耳其"
+  },
+  "lu": {
+    "message": "盧森堡"
+  },
+  "az": {
+    "message": "亞塞拜然"
+  },
+  "uz": {
+    "message": "烏茲別克"
+  },
+  "ru": {
+    "message": "俄羅斯"
+  },
+  "ee": {
+    "message": "愛沙尼亞"
+  },
+  "be": {
+    "message": "比利時"
+  },
+  "ch": {
+    "message": "瑞士"
+  },
+  "gr": {
+    "message": "希臘"
+  },
+  "bg": {
+    "message": "保加利亞"
+  },
+  "at": {
+    "message": "奧地利"
+  },
+  "ke": {
+    "message": "肯亞"
+  },
+  "ie": {
+    "message": "愛爾蘭"
+  },
+  "tw": {
+    "message": "台灣"
+  },
+  "ph": {
+    "message": "菲律賓"
+  },
+  "my": {
+    "message": "馬來西亞"
+  },
   "syd": {
     "message": "雪梨"
   },
@@ -472,6 +535,75 @@
   },
   "tlv": {
     "message": "特拉維夫"
+  },
+  "otp": {
+    "message": "布加勒斯特"
+  },
+  "mxp": {
+    "message": "米蘭"
+  },
+  "hkg": {
+    "message": "香港"
+  },
+  "dxb": {
+    "message": "杜拜"
+  },
+  "ala": {
+    "message": "阿拉木圖"
+  },
+  "hel": {
+    "message": "赫爾辛基"
+  },
+  "ist": {
+    "message": "伊斯坦堡"
+  },
+  "lux": {
+    "message": "盧森堡"
+  },
+  "gyd": {
+    "message": "巴庫"
+  },
+  "tas": {
+    "message": "塔什干"
+  },
+  "led": {
+    "message": "聖彼得堡"
+  },
+  "tll": {
+    "message": "塔林"
+  },
+  "bru": {
+    "message": "布魯塞爾"
+  },
+  "zrh": {
+    "message": "蘇黎世"
+  },
+  "ath": {
+    "message": "雅典"
+  },
+  "sof": {
+    "message": "索菲亞"
+  },
+  "vie": {
+    "message": "維也納"
+  },
+  "nbo": {
+    "message": "奈洛比"
+  },
+  "dub": {
+    "message": "都柏林"
+  },
+  "yul": {
+    "message": "蒙特婁"
+  },
+  "tpe": {
+    "message": "台北"
+  },
+  "mnl": {
+    "message": "馬尼拉"
+  },
+  "jhb": {
+    "message": "新山"
   },
   "loginEnterEmailAndPassword": {
     "message": "請輸入電子郵件和密碼"

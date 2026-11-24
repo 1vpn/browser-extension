@@ -377,6 +377,69 @@
   "za": {
     "message": "جنوب أفريقيا"
   },
+  "it": {
+    "message": "إيطاليا"
+  },
+  "hk": {
+    "message": "هونغ كونغ"
+  },
+  "ae": {
+    "message": "الإمارات"
+  },
+  "kz": {
+    "message": "كازاخستان"
+  },
+  "fi": {
+    "message": "فنلندا"
+  },
+  "tr": {
+    "message": "تركيا"
+  },
+  "lu": {
+    "message": "لوكسمبورغ"
+  },
+  "az": {
+    "message": "أذربيجان"
+  },
+  "uz": {
+    "message": "أوزبكستان"
+  },
+  "ru": {
+    "message": "روسيا"
+  },
+  "ee": {
+    "message": "إستونيا"
+  },
+  "be": {
+    "message": "بلجيكا"
+  },
+  "ch": {
+    "message": "سويسرا"
+  },
+  "gr": {
+    "message": "اليونان"
+  },
+  "bg": {
+    "message": "بلغاريا"
+  },
+  "at": {
+    "message": "النمسا"
+  },
+  "ke": {
+    "message": "كينيا"
+  },
+  "ie": {
+    "message": "أيرلندا"
+  },
+  "tw": {
+    "message": "تايوان"
+  },
+  "ph": {
+    "message": "الفلبين"
+  },
+  "my": {
+    "message": "ماليزيا"
+  },
   "syd": {
     "message": "سيدني"
   },
@@ -472,6 +535,75 @@
   },
   "tlv": {
     "message": "تل أبيب"
+  },
+  "otp": {
+    "message": "بوخارست"
+  },
+  "mxp": {
+    "message": "ميلانو"
+  },
+  "hkg": {
+    "message": "هونغ كونغ"
+  },
+  "dxb": {
+    "message": "دبي"
+  },
+  "ala": {
+    "message": "ألماتي"
+  },
+  "hel": {
+    "message": "هلسنكي"
+  },
+  "ist": {
+    "message": "إسطنبول"
+  },
+  "lux": {
+    "message": "لوكسمبورغ"
+  },
+  "gyd": {
+    "message": "باكو"
+  },
+  "tas": {
+    "message": "طشقند"
+  },
+  "led": {
+    "message": "سانت بطرسبرغ"
+  },
+  "tll": {
+    "message": "تالين"
+  },
+  "bru": {
+    "message": "بروكسل"
+  },
+  "zrh": {
+    "message": "زيورخ"
+  },
+  "ath": {
+    "message": "أثينا"
+  },
+  "sof": {
+    "message": "صوفيا"
+  },
+  "vie": {
+    "message": "فيينا"
+  },
+  "nbo": {
+    "message": "نيروبي"
+  },
+  "dub": {
+    "message": "دبلن"
+  },
+  "yul": {
+    "message": "مونتريال"
+  },
+  "tpe": {
+    "message": "تايبيه"
+  },
+  "mnl": {
+    "message": "مانيلا"
+  },
+  "jhb": {
+    "message": "جوهور بهرو"
   },
   "loginEnterEmailAndPassword": {
     "message": "يرجى إدخال البريد الإلكتروني وكلمة المرور"

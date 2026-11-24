@@ -377,6 +377,69 @@
   "za": {
     "message": "ЮАР"
   },
+  "it": {
+    "message": "Италия"
+  },
+  "hk": {
+    "message": "Гонконг"
+  },
+  "ae": {
+    "message": "ОАЭ"
+  },
+  "kz": {
+    "message": "Казахстан"
+  },
+  "fi": {
+    "message": "Финляндия"
+  },
+  "tr": {
+    "message": "Турция"
+  },
+  "lu": {
+    "message": "Люксембург"
+  },
+  "az": {
+    "message": "Азербайджан"
+  },
+  "uz": {
+    "message": "Узбекистан"
+  },
+  "ru": {
+    "message": "Россия"
+  },
+  "ee": {
+    "message": "Эстония"
+  },
+  "be": {
+    "message": "Бельгия"
+  },
+  "ch": {
+    "message": "Швейцария"
+  },
+  "gr": {
+    "message": "Греция"
+  },
+  "bg": {
+    "message": "Болгария"
+  },
+  "at": {
+    "message": "Австрия"
+  },
+  "ke": {
+    "message": "Кения"
+  },
+  "ie": {
+    "message": "Ирландия"
+  },
+  "tw": {
+    "message": "Тайвань"
+  },
+  "ph": {
+    "message": "Филиппины"
+  },
+  "my": {
+    "message": "Малайзия"
+  },
   "syd": {
     "message": "Сидней"
   },
@@ -472,6 +535,75 @@
   },
   "tlv": {
     "message": "Тель-Авив"
+  },
+  "otp": {
+    "message": "Бухарест"
+  },
+  "mxp": {
+    "message": "Милан"
+  },
+  "hkg": {
+    "message": "Гонконг"
+  },
+  "dxb": {
+    "message": "Дубай"
+  },
+  "ala": {
+    "message": "Алматы"
+  },
+  "hel": {
+    "message": "Хельсинки"
+  },
+  "ist": {
+    "message": "Стамбул"
+  },
+  "lux": {
+    "message": "Люксембург"
+  },
+  "gyd": {
+    "message": "Баку"
+  },
+  "tas": {
+    "message": "Ташкент"
+  },
+  "led": {
+    "message": "Санкт-Петербург"
+  },
+  "tll": {
+    "message": "Таллин"
+  },
+  "bru": {
+    "message": "Брюссель"
+  },
+  "zrh": {
+    "message": "Цюрих"
+  },
+  "ath": {
+    "message": "Афины"
+  },
+  "sof": {
+    "message": "София"
+  },
+  "vie": {
+    "message": "Вена"
+  },
+  "nbo": {
+    "message": "Найроби"
+  },
+  "dub": {
+    "message": "Дублин"
+  },
+  "yul": {
+    "message": "Монреаль"
+  },
+  "tpe": {
+    "message": "Тайбэй"
+  },
+  "mnl": {
+    "message": "Манила"
+  },
+  "jhb": {
+    "message": "Джохор-Бару"
   },
   "loginEnterEmailAndPassword": {
     "message": "Пожалуйста, введите адрес электронной почты и пароль"

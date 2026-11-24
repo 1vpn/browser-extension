@@ -371,6 +371,69 @@
   "za": {
     "message": "آفریقای جنوبی"
   },
+  "it": {
+    "message": "ایتالیا"
+  },
+  "hk": {
+    "message": "هنگ کنگ"
+  },
+  "ae": {
+    "message": "امارات"
+  },
+  "kz": {
+    "message": "قزاقستان"
+  },
+  "fi": {
+    "message": "فنلاند"
+  },
+  "tr": {
+    "message": "ترکیه"
+  },
+  "lu": {
+    "message": "لوکزامبورگ"
+  },
+  "az": {
+    "message": "جمهوری آذربایجان"
+  },
+  "uz": {
+    "message": "ازبکستان"
+  },
+  "ru": {
+    "message": "روسیه"
+  },
+  "ee": {
+    "message": "استونی"
+  },
+  "be": {
+    "message": "بلژیک"
+  },
+  "ch": {
+    "message": "سوئیس"
+  },
+  "gr": {
+    "message": "یونان"
+  },
+  "bg": {
+    "message": "بلغارستان"
+  },
+  "at": {
+    "message": "اتریش"
+  },
+  "ke": {
+    "message": "کنیا"
+  },
+  "ie": {
+    "message": "ایرلند"
+  },
+  "tw": {
+    "message": "تایوان"
+  },
+  "ph": {
+    "message": "فیلیپین"
+  },
+  "my": {
+    "message": "مالزی"
+  },
   "syd": {
     "message": "سیدنی"
   },
@@ -466,6 +529,75 @@
   },
   "tlv": {
     "message": "تل‌آویو"
+  },
+  "otp": {
+    "message": "بخارست"
+  },
+  "mxp": {
+    "message": "میلان"
+  },
+  "hkg": {
+    "message": "هنگ کنگ"
+  },
+  "dxb": {
+    "message": "دبی"
+  },
+  "ala": {
+    "message": "آلماتی"
+  },
+  "hel": {
+    "message": "هلسینکی"
+  },
+  "ist": {
+    "message": "استانبول"
+  },
+  "lux": {
+    "message": "لوکزامبورگ"
+  },
+  "gyd": {
+    "message": "باکو"
+  },
+  "tas": {
+    "message": "تاشکند"
+  },
+  "led": {
+    "message": "سن‌پترزبورگ"
+  },
+  "tll": {
+    "message": "تالین"
+  },
+  "bru": {
+    "message": "بروکسل"
+  },
+  "zrh": {
+    "message": "زوریخ"
+  },
+  "ath": {
+    "message": "آتن"
+  },
+  "sof": {
+    "message": "صوفیه"
+  },
+  "vie": {
+    "message": "وین"
+  },
+  "nbo": {
+    "message": "نایروبی"
+  },
+  "dub": {
+    "message": "دوبلین"
+  },
+  "yul": {
+    "message": "مونترال"
+  },
+  "tpe": {
+    "message": "تایپه"
+  },
+  "mnl": {
+    "message": "مانیل"
+  },
+  "jhb": {
+    "message": "جوهور بهرو"
   },
   "loginEnterEmailAndPassword": {
     "message": "لطفا ایمیل و رمز عبور را وارد کنید"
