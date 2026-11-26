@@ -9,6 +9,15 @@ const freeLocations = {
         "hostname": "free-amsterdam-https-1.cloudburstcdn.com"
       },
       {
+        "hostname": "free-amsterdam-https-1-1.cloudfoodcdn.com"
+      },
+      {
+        "hostname": "free-amsterdam-https-1-1.cloudfabriccdn.com"
+      },
+      {
+        "hostname": "free-amsterdam-https-1-1.cloudwidecdn.com"
+      },
+      {
         "hostname": "free-amsterdam-https-2.cloudflingcdn.com"
       },
       {
@@ -54,10 +63,19 @@ const freeLocations = {
     "city": "Los Angeles",
     "cityCode": "lax",
     "country": "United States",
-    "countryCode": "usw",
+    "countryCode": "us",
     "hosts": [
       {
         "hostname": "free-los-angeles-https-1.cloudburstcdn.com"
+      },
+      {
+        "hostname": "free-los-angeles-https-1-1.cloudfoodcdn.com"
+      },
+      {
+        "hostname": "free-los-angeles-https-1-1.cloudfabriccdn.com"
+      },
+      {
+        "hostname": "free-los-angeles-https-1-1.cloudwidecdn.com"
       },
       {
         "hostname": "free-los-angeles-https-2.cloudtimecdn.com"
@@ -155,16 +173,16 @@ const freeLocations = {
     "countryCode": "il",
     "isPremium": true
   },
-  "itm": {
-    "city": "Osaka",
-    "cityCode": "itm",
+  "nrt": {
+    "city": "Tokyo",
+    "cityCode": "nrt",
     "country": "Japan",
     "countryCode": "jp",
     "isPremium": true
   },
-  "nrt": {
-    "city": "Tokyo",
-    "cityCode": "nrt",
+  "itm": {
+    "city": "Osaka",
+    "cityCode": "itm",
     "country": "Japan",
     "countryCode": "jp",
     "isPremium": true
@@ -232,13 +250,6 @@ const freeLocations = {
     "countryCode": "us",
     "isPremium": true
   },
-  "dfw": {
-    "city": "Dallas",
-    "cityCode": "dfw",
-    "country": "United States",
-    "countryCode": "us",
-    "isPremium": true
-  },
   "sea": {
     "city": "Seattle",
     "cityCode": "sea",
@@ -250,7 +261,7 @@ const freeLocations = {
     "city": "Atlanta",
     "cityCode": "atl",
     "country": "United States",
-    "countryCode": "uss",
+    "countryCode": "us",
     "isPremium": true
   },
   "sjc": {
@@ -260,13 +271,6 @@ const freeLocations = {
     "countryCode": "us",
     "isPremium": true
   },
-  "ewr": {
-    "city": "New York",
-    "cityCode": "ewr",
-    "country": "United States",
-    "countryCode": "use",
-    "isPremium": true
-  },
   "mia": {
     "city": "Miami",
     "cityCode": "mia",
@@ -274,9 +278,23 @@ const freeLocations = {
     "countryCode": "us",
     "isPremium": true
   },
+  "ewr": {
+    "city": "New York",
+    "cityCode": "ewr",
+    "country": "United States",
+    "countryCode": "us",
+    "isPremium": true
+  },
   "hnl": {
     "city": "Honolulu",
     "cityCode": "hnl",
+    "country": "United States",
+    "countryCode": "us",
+    "isPremium": true
+  },
+  "dfw": {
+    "city": "Dallas",
+    "cityCode": "dfw",
     "country": "United States",
     "countryCode": "us",
     "isPremium": true
